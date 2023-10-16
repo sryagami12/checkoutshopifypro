@@ -2628,7 +2628,7 @@
                     </div>
                 </div>
               </div>
-              <button data-id="fkt-button-dcc-2b7-ad6" title="" align="center" onclick="callMethod(event)" action="https://secure.sc-deals.com/submit" data-text-value="Complete Checkout" id="ie863o" replaceproductid="" data-secondsdelay="" data-minutesdelay="" quantity="" price="" type="button" size="none" billnow="false" desktopsize="none" variantvalue="" offer="choose" upsell="choose" class="btn btn-primary fk-ie863o">Complete Checkout</button>
+              <button data-id="fkt-button-dcc-2b7-ad6" title="" align="center" data-text-value="Complete Checkout" id="ie863o" replaceproductid="" data-secondsdelay="" data-minutesdelay="" quantity="" price="" type="submit" size="none" billnow="false" desktopsize="none" variantvalue="" offer="choose" upsell="choose" class="btn btn-primary fk-ie863o">Complete Checkout</button>
               <div data-box="true" data-secondsdelay="" id="i5e7v2-3">
                 <div data-secondsdelay="" id="ie6mzz" class="form-check fk-form-radio-button-parent">
                   <input type="checkbox" value="Terms" name="custom_Terms" onclick="checkBoxChange(attributes)" required="" opencheckboxsection="" checked="" id="is6d2p" placeholder="" customval="Terms" requiredtype="" class="fk-form-general-radio-checkbox fk-form-checkbox">
