@@ -2670,25 +2670,25 @@
               </table>
                <hr id="idffaw" class="fk-line horizontal-line-default">
                <div align="right" id="irhzml" data-secondsdelay="" class="fk-element-container">
-                  <label id="ifgufp" class="cart-display"><b>ANILLO PIXIU</b></label>
+                  <label id="ifgufp" class="cart-display"><b>{{$productlink->product_name}}</b></label>
                </div>
               <div align="right" id="irhzml" data-secondsdelay="" class="fk-element-container">
                <label id="ifgufp" class="cart-display">Cantidad</label>
-               <span data-text="text" data-secondsdelay="" id="i6l04g">1</span>
+               <span data-text="text" data-secondsdelay="" id="i6l04g">{{$productlink->product_quantity}}</span>
              </div>
               <hr id="isf6dh-2" class="fk-line horizontal-line-default">
               <div align="right" id="irhzml" data-secondsdelay="" class="fk-element-container">
                 <label id="ifgufp" class="cart-display">Sub Total</label>
-                <span data-text="text" data-secondsdelay="" id="i6l04g">$9.99</span>
+                <span data-text="text" data-secondsdelay="" id="i6l04g">{{$productlink->product_price}}</span>
               </div>
               <div align="right" id="ino1wq" data-secondsdelay="" class="fk-element-container">
                 <label id="iw6gzo" class="cart-display">Shipping</label>
-                <span data-text="text" data-secondsdelay="" id="i5jhja">$0.00</span>
+                <span data-text="text" data-secondsdelay="" id="i5jhja">{{$productlink->checkout_taxes_value}}</span>
               </div>
               <hr id="im3csi-2" class="fk-line horizontal-line-default">
               <div align="right" id="ikobfq" data-secondsdelay="" class="fk-element-container">
                 <label id="i4ab4d" class="cart-display">Total</label>
-                <span data-text="text" data-secondsdelay="" id="i5c3ff">$9.99</span>
+                <span data-text="text" data-secondsdelay="" id="i5c3ff">{{$productlink->product_price}}</span>
               </div>
             </div>
             <div id="iu62du-3" data-secondsdelay="" class="ch-express-checkout-group-or-line">
