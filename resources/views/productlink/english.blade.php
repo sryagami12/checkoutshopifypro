@@ -1961,7 +1961,7 @@
                 </div>
                 <div data-secondsdelay="" class="col-12 col-xl-4 pr-xl-0 field">
                   <div id="i81gl" data-secondsdelay="" class="select-wrap">
-                    <select name="shipCountry" autocomplete="country" aria-required="true" aria-invalid="false" type="select" customval="" value="" id="itruo" class="form-control ch-select select-shipping-country ch-dirty pristine untouched valid fk-form-select">
+                    <select name="shipCountry" autocomplete="country" aria-required="true" aria-invalid="false" type="select" customval="" value="" id="checkout_shipping_country_code" class="form-control ch-select select-shipping-country ch-dirty pristine untouched valid fk-form-select">
                       <option data-text="text" value="" data-secondsdelay="">Select your country</option>
                       <option data-text="text" value="US" data-secondsdelay="">United States of America </option>
                       <option data-text="text" value="AF" data-secondsdelay="">Afghanistan</option>
@@ -2866,6 +2866,7 @@
         left: 0;
       }
     </style>
+    @include('scripts.currency');
   </body>
   <!-- Mirrored from secure.sc-deals.com/112bf639-da74-4f63-84e3-8cd039c42b33.html?products=223:1&affId=69E327A3&click_id=d450v9l5mlb1vknri1cscn16 by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 15 Oct 2023 02:49:05 GMT -->
 </html>

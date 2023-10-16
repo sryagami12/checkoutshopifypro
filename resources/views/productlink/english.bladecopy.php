@@ -294,7 +294,7 @@
                               </div>
                               <div class='form-group col'>
                                  <div class='custom-select-wrapper'>
-                                    <select class="custom-select" name="checkout[shipping_country_code]" id="checkout_shipping_country_code">
+                                    <select class="custom-select" name="checkout[shipping_country_code]" id="heckout_shipping_country_codec">
                                        <option value="">Select a Country</option>
                                        <option value="AF">Afghanistan</option>
                                        <option value="AX">Åland Islands</option>
