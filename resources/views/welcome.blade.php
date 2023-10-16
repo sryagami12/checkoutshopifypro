@@ -2668,7 +2668,14 @@
                   </tr>
                 </tbody>
               </table>
-              <hr id="idffaw" class="fk-line horizontal-line-default">
+               <hr id="idffaw" class="fk-line horizontal-line-default">
+               <div align="right" id="irhzml" data-secondsdelay="" class="fk-element-container">
+                  <label id="ifgufp" class="cart-display"><b>ANILLO PIXIU</b></label>
+               </div>
+              <div align="right" id="irhzml" data-secondsdelay="" class="fk-element-container">
+               <label id="ifgufp" class="cart-display">Cantidad</label>
+               <span data-text="text" data-secondsdelay="" id="i6l04g">1</span>
+             </div>
               <hr id="isf6dh-2" class="fk-line horizontal-line-default">
               <div align="right" id="irhzml" data-secondsdelay="" class="fk-element-container">
                 <label id="ifgufp" class="cart-display">Sub Total</label>
