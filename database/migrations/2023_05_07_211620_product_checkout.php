@@ -17,10 +17,10 @@ return new class extends Migration
             $table->decimal('product_price',8,2);
             $table->integer('product_quantity');
             $table->text('product_image_path');
-            $table->string('checkout_free_option_label');
-            $table->decimal('checkout_free_option_Value',8,2);
-            $table->string('checkout_express_option_label');
-            $table->decimal('checkout_express_option_value',8,2);
+            $table->string('checkout_free_option_label')->nullable();
+            $table->decimal('checkout_free_option_Value',8,2)->nullable();
+            $table->string('checkout_express_option_label')->nullable();
+            $table->decimal('checkout_express_option_value',8,2)->nullable();
             $table->decimal('checkout_taxes_value',8,2);
             $table->string('checkout_language');
             $table->timestamps();
