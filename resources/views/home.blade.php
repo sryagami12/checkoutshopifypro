@@ -48,8 +48,12 @@
                                       <div class="mb-3">
                                           <label for="formFile" class="form-label">Product Image</label>
                                           <input class="form-control" name="product_image_path" type="file" id="formFile">
-                                      </div>
-                                        <hr>
+                                    </div>
+                                    <div class="mb-3">
+                                          <label for="exampleFormControlInput1" class="form-label">Shipping ($)</label>
+                                          <input type="number" name="checkout_taxes_value" class="form-control" id="exampleFormControlInput1" placeholder="0.00" value="0.00">
+                                    </div>
+                                    <hr>
                                         <div class="mb-3">
                                             <label for="exampleFormControlInput1" class="form-label">Language</label>
                                             <select class="form-select" aria-label="Default select example" name="checkout_language" id="select_language_id">
@@ -57,27 +61,6 @@
                                                 <option value="Spanish">Spanish</option>
                                             </select>
                                         </div>
-                                      <div class="mb-3">
-                                          <label for="exampleFormControlInput1" class="form-label">Checkout Free option Label</label>
-                                          <input type="text" name="checkout_free_option_label" class="form-control" id="free_shipping_label_id" placeholder="Checkout Free option Label here..." value="Congratulations, you have been selected for a Free Shipping rate!">
-                                      </div>
-                                      <div class="mb-3">
-                                          <label for="exampleFormControlInput1" class="form-label">Checkout Free option Label ($)</label>
-                                          <input type="number" name="checkout_free_option_Value" class="form-control" id="exampleFormControlInput1" placeholder="0.00" value="0.00">
-                                      </div>
-                                      <div class="mb-3">
-                                          <label for="exampleFormControlInput1" class="form-label">Checkout Express Option Label</label>
-                                          <input type="text" name="checkout_express_option_label" class="form-control" id="express_shipping_label_id" placeholder="Checkout Express Option Label Here..." value="✈︎ VIP Express shipping + Surprise gift 🎁">
-                                      </div>
-                                      <div class="mb-3">
-                                          <label for="exampleFormControlInput1" class="form-label">Checkout Express Option Label ($)</label>
-                                          <input type="number" name="checkout_express_option_value" class="form-control" id="exampleFormControlInput1" placeholder="0.00" value="9.99">
-                                      </div>
-                                      
-                                      <div class="mb-3">
-                                          <label for="exampleFormControlInput1" class="form-label">Taxes ($)</label>
-                                          <input type="number" name="checkout_taxes_value" class="form-control" id="exampleFormControlInput1" placeholder="0.00" value="0.00">
-                                      </div>
       
                                   </div>
                                   <div class="modal-footer">
