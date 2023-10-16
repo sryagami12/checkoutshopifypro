@@ -16,11 +16,7 @@
         background-image: none !important;
       }
     </style>
-    <script type="text/javascript" src="{{asset('polyfill.io/v3/polyfillbb55.js?version=3.110.1&amp;features=default%2Ces5%2Ces6%2Ces7%2CDOMTokenList%2CDOMTokenList.prototype.%40%40iterator%2CDOMTokenList.prototype.forEach%2CNodeList.prototype.forEach%2CNodeList.prototype.%40%40iterator%2Cscroll%2Cfetch%2CURLSearchParams%2CObject.values%2CObject.entries%2CMap%2CElement.prototype.scroll%2CElement.prototype.remove%2CElement.prototype.prepend%2Ces2022%2Ces2021%2Ces2020%2Ces2019%2CElement.prototype.placeholder%2Ces2017%2Ces2018%2Ces2016%2CSymbol.split%2CSymbol%2CSymbol.iterator%2CSymbol.match%2CSymbol.matchAll%2CSymbol.replace%2CSymbol.search')}}"></script>
-    <script src="{{asset('cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')}}"></script>
-    <script async="" src="{{asset('cdn.jsdelivr.net/npm/popper.js%401.16.0/dist/umd/popper.min.js')}}"></script>
-    <script async="" src="{{asset('stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js')}}"></script>
-    <link rel="stylesheet" href="{{asset('assets.funnelkonnekt.com/Template/assets/styles/af5b82d4-e690-4793-96f8-8ec9096c3643/af5b82d4-e690-4793-96f8-8ec9096c3643/bootstrap.min.css')}}" type="text/css">
+    
     <script id="pageDataScript">
       var pageData = {
         "pageViewReferenceId": "112bf639-da74-4f63-84e3-8cd039c42b33",
