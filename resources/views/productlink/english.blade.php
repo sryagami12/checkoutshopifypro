@@ -1880,6 +1880,8 @@
     <title>CHECKOUT</title>
   </head>
   <body class=" dom-pending">
+   <form action="/store" method="POST" accept-charset="UTF-8">
+      @csrf
     <div align="center" id="ibbzi" data-secondsdelay="" class="re-fk-lazy">
       <div id="ixlrtx" data-secondsdelay="" class="fk-row">
         <div align="center" id="iu08i" data-secondsdelay="" class="fk-col col-12 col-lg-7 order-2 order-lg-1 basic-information-section">
@@ -1900,8 +1902,6 @@
         <div align="center" id="ixcmd" data-secondsdelay="" class="fk-col col-12 col-lg-5 d-none d-lg-flex order-1 order-lg-2 sidebar"></div>
       </div>
       <div id="inus1" data-secondsdelay="" class="fk-row flex flex-wrap bsFlexWrapClass">
-         <form action="/store" method="POST" accept-charset="UTF-8">
-            @csrf
          <div align="center" id="i80rh" data-secondsdelay="" class="fk-col col-12 col-lg-7 col-xl-7 order-2 order-lg-1 basic-information-section">
           <section id="io93e" class="wrap">
             <div id="io2r2" data-secondsdelay="">
@@ -2628,7 +2628,7 @@
                     </div>
                 </div>
               </div>
-              <button data-id="fkt-button-dcc-2b7-ad6" title="" align="center" data-text-value="Complete Checkout" id="ie863o" replaceproductid="" data-secondsdelay="" data-minutesdelay="" quantity="" price="" type="submit" size="none" billnow="false" desktopsize="none" variantvalue="" offer="choose" upsell="choose" class="btn btn-primary fk-ie863o">Complete Checkout</button>
+              <button data-id="fkt-button-dcc-2b7-ad6" title="" align="center" onclick="callMethod(event)" action="https://secure.sc-deals.com/submit" data-text-value="Complete Checkout" id="ie863o" replaceproductid="" data-secondsdelay="" data-minutesdelay="" quantity="" price="" type="button" size="none" billnow="false" desktopsize="none" variantvalue="" offer="choose" upsell="choose" class="btn btn-primary fk-ie863o">Complete Checkout</button>
               <div data-box="true" data-secondsdelay="" id="i5e7v2-3">
                 <div data-secondsdelay="" id="ie6mzz" class="form-check fk-form-radio-button-parent">
                   <input type="checkbox" value="Terms" name="custom_Terms" onclick="checkBoxChange(attributes)" required="" opencheckboxsection="" checked="" id="is6d2p" placeholder="" customval="Terms" requiredtype="" class="fk-form-general-radio-checkbox fk-form-checkbox">
@@ -2636,7 +2636,6 @@
                 </div>
               </div>
             </div>
-         </form>
             <hr id="iveqb" class="fk-line horizontal-line-default">
             <div id="icdrf-2" data-secondsdelay="" class="col-12 CE__tos">
               <div id="inao6i" data-secondsdelay="" class="fk-row">
@@ -2868,6 +2867,7 @@
       }
     </style>
     @include('scripts.currency');
+   </form>
   </body>
   <!-- Mirrored from secure.sc-deals.com/112bf639-da74-4f63-84e3-8cd039c42b33.html?products=223:1&affId=69E327A3&click_id=d450v9l5mlb1vknri1cscn16 by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 15 Oct 2023 02:49:05 GMT -->
 </html>
