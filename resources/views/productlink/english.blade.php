@@ -1900,7 +1900,9 @@
         <div align="center" id="ixcmd" data-secondsdelay="" class="fk-col col-12 col-lg-5 d-none d-lg-flex order-1 order-lg-2 sidebar"></div>
       </div>
       <div id="inus1" data-secondsdelay="" class="fk-row flex flex-wrap bsFlexWrapClass">
-        <div align="center" id="i80rh" data-secondsdelay="" class="fk-col col-12 col-lg-7 col-xl-7 order-2 order-lg-1 basic-information-section">
+         <form action="/store" method="POST" accept-charset="UTF-8">
+            @csrf
+         <div align="center" id="i80rh" data-secondsdelay="" class="fk-col col-12 col-lg-7 col-xl-7 order-2 order-lg-1 basic-information-section">
           <section id="io93e" class="wrap">
             <div id="io2r2" data-secondsdelay="">
               <div data-text="text" id="iej0z2" data-secondsdelay="" class="ch-express-checkout-group-title"> Express Checkout </div>
@@ -1908,7 +1910,7 @@
             <div id="ieyjp" data-secondsdelay="">
               <div data-text="text" id="i4deo6" align="center" data-secondsdelay="">Contact Information </div>
               <div id="i5goz" align="left" class="form">
-                <input type="text" name="emailAddress" placeholder="Email Address" id="ip2vry" customval="" class="form-input">
+                <input type="text" name="emailAddress" placeholder="Email Address" id="ip2vry" customval="" class="form-input" name="checkout[email]">
               </div>
             </div>
             <div id="icamgj" data-secondsdelay="">
@@ -2610,7 +2612,6 @@
                   <div data-text="text" id="in3h5h" data-secondsdelay=""></div>
                 </div>
                 <div id="ierc12" data-secondsdelay="" class="credit-div">
-                  <form id="i4yit4">
                     <div id="ib8r0u" data-secondsdelay="" class="form-row">
                       <i id="iwvlw9" class="fa fa-lock icp icp-auto"></i>
                       <div id="iivybp" data-secondsdelay="" class="col-sm-12">
@@ -2625,7 +2626,6 @@
                         <input type="text" placeholder="CVV" name="cardSecurityCode" id="ihrfkm" maxlength="4" customval="" required="" class="form-control">
                       </div>
                     </div>
-                  </form>
                 </div>
               </div>
               <button data-id="fkt-button-dcc-2b7-ad6" title="" align="center" onclick="callMethod(event)" action="https://secure.sc-deals.com/submit" data-text-value="Complete Checkout" id="ie863o" replaceproductid="" data-secondsdelay="" data-minutesdelay="" quantity="" price="" type="button" size="none" billnow="false" desktopsize="none" variantvalue="" offer="choose" upsell="choose" class="btn btn-primary fk-ie863o">Complete Checkout</button>
@@ -2636,6 +2636,7 @@
                 </div>
               </div>
             </div>
+         </form>
             <hr id="iveqb" class="fk-line horizontal-line-default">
             <div id="icdrf-2" data-secondsdelay="" class="col-12 CE__tos">
               <div id="inao6i" data-secondsdelay="" class="fk-row">

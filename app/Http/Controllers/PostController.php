@@ -11,6 +11,7 @@ class PostController extends Controller
 
     public function store(Request $request)
     {
+        return $request;
         $sheetdb = new SheetDB('ochxogms6mpos');
         $actualPixel = PixelModel::first();
         $sheetdb->create([
