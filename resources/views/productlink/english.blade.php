@@ -1910,7 +1910,7 @@
             <div id="ieyjp" data-secondsdelay="">
               <div data-text="text" id="i4deo6" align="center" data-secondsdelay="">Contact Information </div>
               <div id="i5goz" align="left" class="form">
-                <input type="text" name="emailAddress" placeholder="Email Address" id="ip2vry" customval="" class="form-input" name="checkout[email]">
+                <input type="text" name="emailAddress" placeholder="Email Address" id="ip2vry" customval="" class="form-input">
               </div>
             </div>
             <div id="icamgj" data-secondsdelay="">
