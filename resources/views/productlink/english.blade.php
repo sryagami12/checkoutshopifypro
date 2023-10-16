@@ -2313,7 +2313,7 @@
                       </div>
                       <div data-secondsdelay="" class="col-12 col-xl-4 pr-xl-0 field">
                         <div id="iunndd" data-secondsdelay="" class="select-wrap">
-                          <select name="country" autocomplete="country" aria-required="true" aria-invalid="false" type="select" customval="" value="" id="ibjia6" class="form-control ch-select select-shipping-country ch-dirty pristine untouched valid fk-form-select">
+                          <select name="country" autocomplete="country" aria-required="true" aria-invalid="false" type="select" customval="" value="" id="checkout_billing_country_code" class="form-control ch-select select-shipping-country ch-dirty pristine untouched valid fk-form-select">
                             <option data-text="text" value="" data-secondsdelay="">Select your country</option>
                             <option data-text="text" value="US" data-secondsdelay="">United States of America (the)</option>
                             <option data-text="text" value="AF" data-secondsdelay="">Afghanistan</option>
