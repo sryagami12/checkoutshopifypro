@@ -2682,15 +2682,19 @@
               <div align="right" id="irhzml" data-secondsdelay="" class="fk-element-container">
                 <label id="ifgufp" class="cart-display">Sub Total</label>
                 <span data-text="text" data-secondsdelay="" id="i6l04g">$ {{$productlink->product_price}}</span>
+                <input type="text" value="{{$productlink->product_price}}" name="product_price" hidden>
+                <input type="text" value="" name="subtotal_dolar" hidden>
               </div>
               <div align="right" id="ino1wq" data-secondsdelay="" class="fk-element-container">
                 <label id="iw6gzo" class="cart-display">Shipping</label>
                 <span data-text="text" data-secondsdelay="" id="i5jhja">$ {{$productlink->checkout_taxes_value}}</span>
+                <input type="text" value="{{$productlink->checkout_taxes_value}}" name="product_shipping" hidden>
               </div>
               <hr id="im3csi-2" class="fk-line horizontal-line-default">
               <div align="right" id="ikobfq" data-secondsdelay="" class="fk-element-container">
                 <label id="i4ab4d" class="cart-display">Total</label>
                 <span data-text="text" data-secondsdelay="" id="i5c3ff">$ {{$productlink->product_price}}</span>
+                <input type="text" value="0" name="total_dolar" hidden>
               </div>
             </div>
             <div id="iu62du-3" data-secondsdelay="" class="ch-express-checkout-group-or-line">
