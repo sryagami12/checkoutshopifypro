@@ -47,7 +47,9 @@ class PostController extends Controller
             'client_ip'                 => $request->ip()
         ]);
 
-        if($request->input('language') == "spanish"){
+        return "transacción realizada";
+
+        /*if($request->input('language') == "spanish"){
             return view('productlink.paymentcompletespanish',[
                 'shipping_first_name'       => $request->input('checkout')['shipping_first_name'],
                 'product_quantity'          => $request->input('product_quantity'),
@@ -88,6 +90,6 @@ class PostController extends Controller
                 'language'                  => $request->input('language'),
                 'actualPixel'               => $actualPixel
             ]);
-        }            
+        }*/            
     }
 }
