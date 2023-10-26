@@ -8,6 +8,9 @@
         var freeOptionValue = "{{$productlink->checkout_free_option_Value}}";
         var expressOptionValue = "{{$productlink->checkout_express_option_value}}";
 
+
+        console.log(productQuantity);
+
         var subtotal=0;
         var total=0;
 
