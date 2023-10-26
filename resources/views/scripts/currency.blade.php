@@ -528,6 +528,8 @@
                 subtotal = productQuantity*productprice;
                 total = subtotal + freeOptionValue + taxes;
 
+                console.log("subtotal= "+ subtotal);
+
                 document.getElementById('product_price_label').innerHTML = productprice + ' '+currency;
                 
                 document.getElementById('mobile_total_1_id').innerHTML = total + ' '+currency;
