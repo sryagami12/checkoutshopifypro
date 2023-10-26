@@ -10,6 +10,10 @@
 
 
         console.log(productQuantity);
+        console.log(productprice);
+        console.log(taxes);
+        console.log(freeOptionValue);
+        console.log(expressOptionValue);
 
         var subtotal=0;
         var total=0;
