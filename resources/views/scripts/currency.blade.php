@@ -504,6 +504,8 @@
                 
                 var changevalue = data["rates"][currency];
 
+                console.log("changevalue = " + changevalue);
+
                 productQuantity     = parseInt(productQuantity);
                 productprice        = parseFloat(productprice);
                 taxes               = parseFloat(taxes);
@@ -527,8 +529,6 @@
                 
                 subtotal = productQuantity*productprice;
                 total = subtotal + freeOptionValue + taxes;
-
-                console.log("subtotal= "+ subtotal);
 
                 document.getElementById('product_price_label').innerHTML = productprice + ' '+currency;
                 
