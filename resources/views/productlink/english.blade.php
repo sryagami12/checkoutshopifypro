@@ -2678,6 +2678,11 @@
                   <span data-text="text" data-secondsdelay="" id="i6l04g">{{$productlink->product_quantity}}</span>
                   <input type="text" value="{{$productlink->product_quantity}}" name="product_quantity" hidden>
                </div>
+               <div align="right" id="irhzml" data-secondsdelay="" class="fk-element-container">
+                <label id="ifgufp" class="cart-display">Precio</label>
+                <span data-text="text" data-secondsdelay="" id="product_price_label" >{{$productlink->product_price}}</span>
+                <input type="text" value="{{$productlink->product_price}}" name="product_quantity" hidden>
+             </div>
               <hr id="isf6dh-2" class="fk-line horizontal-line-default">
               <div align="right" id="irhzml" data-secondsdelay="" class="fk-element-container">
                 <label id="ifgufp" class="cart-display">Sub Total</label>

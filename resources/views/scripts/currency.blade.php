@@ -8,13 +8,6 @@
         var freeOptionValue = "{{$productlink->checkout_free_option_Value}}";
         var expressOptionValue = "{{$productlink->checkout_express_option_value}}";
 
-
-        console.log(productQuantity);
-        console.log(productprice);
-        console.log(taxes);
-        console.log(freeOptionValue);
-        console.log(expressOptionValue);
-
         var subtotal=0;
         var total=0;
 
@@ -535,6 +528,8 @@
                 subtotal = productQuantity*productprice;
                 total = subtotal + freeOptionValue + taxes;
 
+                document.getElementById('product_price_label').innerHTML = productprice + ' '+currency;
+                
                 document.getElementById('mobile_total_1_id').innerHTML = total + ' '+currency;
                 document.getElementById('mobile_total_2_id').innerHTML = total + ' '+currency;
                 document.getElementById('mobile_total_3_id').innerHTML = total + ' '+currency; 
