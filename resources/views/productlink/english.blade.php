@@ -2692,7 +2692,7 @@
               </div>
               <div align="right" id="ino1wq" data-secondsdelay="" class="fk-element-container">
                 <label id="iw6gzo" class="cart-display">Shipping</label>
-                <span data-text="text" data-secondsdelay="" id="i5jhja">$ {{$productlink->checkout_taxes_value}}</span>
+                <span data-text="text" data-secondsdelay="" id="shipping_label">$ {{$productlink->checkout_taxes_value}}</span>
                 <input type="text" value="{{$productlink->checkout_taxes_value}}" name="product_shipping" hidden>
               </div>
               <hr id="im3csi-2" class="fk-line horizontal-line-default">
