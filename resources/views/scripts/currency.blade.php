@@ -458,7 +458,11 @@
         });
 
         document.getElementById('checkbox_billing_info').addEventListener('change', function(){
-            console.log('checbox changing');
+            if (this.checked) {
+                console.log("Checkbox is checked..");
+            } else {
+                console.log("Checkbox is not checked..");
+            }
         });
 
         function updateActualCuntry(timezonetocountry){
