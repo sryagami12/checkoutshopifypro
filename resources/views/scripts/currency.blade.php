@@ -504,8 +504,6 @@
                 
                 var changevalue = data["rates"][currency];
 
-                console.log("changevalue = " + changevalue);
-
                 productQuantity     = parseInt(productQuantity);
                 productprice        = parseFloat(productprice);
                 taxes               = parseFloat(taxes);
@@ -514,6 +512,8 @@
 
                 subtotal = productQuantity*productprice;
                 total = subtotal + freeOptionValue + taxes;
+
+                console.log("subtotal = " + subtotal);
 
                 document.getElementById('subtotal_dolar').value = subtotal.toFixed(2);
                 document.getElementById('shipping_price_dolar').value = freeOptionValue.toFixed(2);
