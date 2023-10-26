@@ -457,6 +457,10 @@
             updateShippingPrice(element,currency, total);
         });
 
+        document.getElementById('checkbox_billing_info').addEventListener('change', function(){
+            console.log('checbox changing');
+        });
+
         function updateActualCuntry(timezonetocountry){
             if (Intl) {
                 userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
