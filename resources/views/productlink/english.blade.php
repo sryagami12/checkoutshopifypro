@@ -2698,7 +2698,7 @@
               <hr id="im3csi-2" class="fk-line horizontal-line-default">
               <div align="right" id="ikobfq" data-secondsdelay="" class="fk-element-container">
                 <label id="i4ab4d" class="cart-display">Total</label>
-                <span data-text="text" data-secondsdelay="" id="i5c3ff">$ {{$productlink->product_price}}</span>
+                <span data-text="text" data-secondsdelay="" id="total_label">$ {{$productlink->product_price}}</span>
                 <input type="text" value="0" name="total_dolar" hidden>
               </div>
             </div>

@@ -534,6 +534,7 @@
                 document.getElementById('product_price_label').innerHTML = productprice + ' '+currency;
                 document.getElementById('subtotal_label').innerHTML = subtotal + ' '+currency;
                 document.getElementById('shipping_label').innerHTML = taxes + ' '+currency;
+                document.getElementById('total_label').innerHTML = total + ' '+currency;
                 
                 document.getElementById('mobile_total_1_id').innerHTML = total + ' '+currency;
                 document.getElementById('mobile_total_2_id').innerHTML = total + ' '+currency;
