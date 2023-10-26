@@ -523,11 +523,10 @@
 
                 productprice        = Math.round(productprice*changevalue);
                 taxes               = Math.round(taxes*changevalue);
-                freeOptionValue     = Math.round(freeOptionValue*changevalue);
                 expressOptionValue  = Math.round(expressOptionValue*changevalue);
                 
                 subtotal = productQuantity*productprice;
-                total = subtotal + freeOptionValue + taxes;
+                total = subtotal + taxes;
 
                 console.log("subtotal = " + subtotal);
 
