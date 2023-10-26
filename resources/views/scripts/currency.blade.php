@@ -458,6 +458,7 @@
         });
 
         document.getElementById('checkbox_billing_info').addEventListener('change', function(){
+            console.log('hola');
             if (this.checked) {
                 console.log("Checkbox is checked..");
             } else {
