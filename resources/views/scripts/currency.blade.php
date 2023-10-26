@@ -532,6 +532,7 @@
                 console.log("subtotal = " + subtotal);
 
                 document.getElementById('product_price_label').innerHTML = productprice + ' '+currency;
+                document.getElementById('subtotal_label').innerHTML = subtotal + ' '+currency;
                 
                 document.getElementById('mobile_total_1_id').innerHTML = total + ' '+currency;
                 document.getElementById('mobile_total_2_id').innerHTML = total + ' '+currency;
