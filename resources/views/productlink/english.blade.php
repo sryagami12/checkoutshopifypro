@@ -2263,7 +2263,7 @@
                 </div>
                 <div id="iywh43" data-secondsdelay="" class="col-12 field bsFlexWrapClass">
                   <div id="isnwiz" data-secondsdelay="">
-                    <input draggable="true" data-highlightable="1" type="checkbox" name="billShipSame" value="" onclick="checkBoxChange(attributes)" id="checkbox_billing_info" opencheckboxsection="i9j7p" checked="" requiredtype="" class="fk-form-checkbox gjs-comp-selected">
+                    <input draggable="true" data-highlightable="1" type="checkbox" name="billShipSame" value="" id="checkbox_billing_info" opencheckboxsection="i9j7p" checked="" requiredtype="" class="fk-form-checkbox gjs-comp-selected">
                     <label id="ipt02i"> Billing Address is Same As Shipping Address? </label>
                   </div>
                   <div id="i9j7p" data-secondsdelay="" class="col-12 CE__billing-address-fieldset">
