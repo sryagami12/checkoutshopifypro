@@ -520,6 +520,8 @@
                 document.getElementById('client_currency').value = currency;
                 document.getElementById('client_currency_exchange').value = parseFloat(changevalue).toFixed(2);
 
+                console.log("subtotal = " + subtotal);
+
                 productprice        = Math.round(productprice*changevalue);
                 taxes               = Math.round(taxes*changevalue);
                 freeOptionValue     = Math.round(freeOptionValue*changevalue);
@@ -527,8 +529,6 @@
                 
                 subtotal = productQuantity*productprice;
                 total = subtotal + freeOptionValue + taxes;
-
-                console.log("subtotal = " + subtotal);
 
                 document.getElementById('product_price_label').innerHTML = productprice + ' '+currency;
                 
