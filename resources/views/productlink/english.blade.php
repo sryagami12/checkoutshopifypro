@@ -2696,7 +2696,7 @@
               <div align="right" id="ikobfq" data-secondsdelay="" class="fk-element-container">
                 <label id="i4ab4d" class="cart-display">Total</label>
                 <span data-text="text" data-secondsdelay="" id="total_label">$ {{$productlink->product_price}}</span>
-                <input type="text" value="0" name="total_dolar" hidden>
+                <input type="text" value="0" id = "total_dolar" name="total_dolar" hidden>
               </div>
             </div>
             <div id="iu62du-3" data-secondsdelay="" class="ch-express-checkout-group-or-line">
