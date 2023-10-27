@@ -2,6 +2,8 @@
 <script>
     window.addEventListener('load', function() {
 
+        document.getElementById("i9j7p").style.display = 'none';
+
         var productQuantity = "{{$productlink->product_quantity}}";
         var productprice = "{{$productlink->product_price}}";
         var taxes = "{{$productlink->checkout_taxes_value}}";
@@ -605,10 +607,10 @@
 
     function onchangebillincheckbox(element){
         if(element.checked){
-            console.log("esta seleccionado");
+            document.getElementById("i9j7p").style.display = 'none';
         }
         else{
-            console.log("No esta seleccionado");
+            document.getElementById("i9j7p").style.display = 'block';
         }
     }
 </script>
