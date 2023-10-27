@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use SheetDB\SheetDB;
 use Illuminate\Http\Request;
 use App\Models\PixelModel;
+use App\Models\ProductLinkModel;
 
 class PostController extends Controller
 {
