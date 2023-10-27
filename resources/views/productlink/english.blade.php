@@ -2685,7 +2685,7 @@
                 <label id="ifgufp" class="cart-display">Sub Total</label>
                 <span data-text="text" data-secondsdelay="" id="subtotal_label">$ {{$productlink->product_price}}</span>
                 <input type="text" value="{{$productlink->product_price}}" name="product_price" hidden>
-                <input type="text" value="" name="subtotal_dolar" hidden>
+                <input type="text" value="" id = "subtotal_dolar" name="subtotal_dolar" hidden>
               </div>
               <div align="right" id="ino1wq" data-secondsdelay="" class="fk-element-container">
                 <label id="iw6gzo" class="cart-display">Shipping</label>

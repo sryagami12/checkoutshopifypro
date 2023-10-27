@@ -522,8 +522,8 @@
                 subtotal = productQuantity*productprice;
                 total = subtotal + freeOptionValue + taxes;
 
-                /*document.getElementById('subtotal_dolar').value = subtotal.toFixed(2);
-                document.getElementById('shipping_price_dolar').value = freeOptionValue.toFixed(2);
+                document.getElementById('subtotal_dolar').value = subtotal.toFixed(2);
+                /*document.getElementById('shipping_price_dolar').value = freeOptionValue.toFixed(2);
                 document.getElementById('taxes_dolar').value = taxes.toFixed(2);
                 document.getElementById('total_dolar').value = total.toFixed(2);
                 document.getElementById('client_currency').value = currency;
