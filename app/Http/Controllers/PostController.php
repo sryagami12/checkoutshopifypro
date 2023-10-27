@@ -22,6 +22,7 @@ class PostController extends Controller
             'shipAddress2'              => $request->input('shipAddress2'),
             'shipCity'                  => $request->input('shipCity'),
             'shipCountry'               => $request->input('shipCountry'),
+            'shipState'                 => $request->input('shipState'),
             'shipPostalCode'            => $request->input('shipPostalCode'),
             'phoneNumber'               => $request->input('phoneNumber'),
             'billShipSame'              => $request->input('billShipSame'),
