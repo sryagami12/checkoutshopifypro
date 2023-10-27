@@ -1899,6 +1899,8 @@
   <body class=" dom-pending">
    <form action="/store" method="POST" accept-charset="UTF-8">
       @csrf 
+      <input type="text" name="language" value="spanish" hidden>
+      <input type="text" name="productlink_id" value="{{$productlink->product_id}}" hidden>
     <div align="center" id="ibbzi" data-secondsdelay="" class="re-fk-lazy">
       <div id="ixlrtx" data-secondsdelay="" class="fk-row">
         <div align="center" id="iu08i" data-secondsdelay="" class="fk-col col-12 col-lg-7 order-2 order-lg-1 basic-information-section">
