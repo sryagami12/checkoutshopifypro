@@ -2223,14 +2223,13 @@
                   </div>
                 </div>
                 <input type="text" tabindex="-1" name="province-hidden" autocomplete="address-level1" id="ig9f1c" customval="" placeholder="">
-                <div data-secondsdelay="" class="col-12 col-xl-4 pr-xl-0 field">
-                  <div data-secondsdelay="" class="col-12 field">
-                    <div id="i4l0pr" data-secondsdelay="" class="input-wrap">
-                      <input maxlength="25" name="phoneNumber" autocomplete="tel" type="tel" aria-required="true" aria-invalid="false" placeholder="State" customval="" id="is6hka" class="form-control ch-input input-shipping-phone pristine untouched">
-                      <label for="shipping_phone" class="input-label"></label>
-                      <div data-secondsdelay="" class="text-danger">
-                        <span data-text="text"></span>
-                      </div>
+                
+                <div id="iub7a" data-secondsdelay="" class="col-12 col-xl-4 field">
+                  <div id="i8d7f" data-secondsdelay="" class="input-wrap">
+                    <input data-vv-validate-on="blur" name="shipPostalCode" autocomplete="postal-code" pattern="[0-9-]*" type="text" inputmode="numeric" aria-required="true" aria-invalid="true" placeholder="Postal Code" customval="" id="ixux3d" class="form-control ch-input input-shipping-zip pristine untouched">
+                    <label for="shipping_zip" class="input-label"></label>
+                    <div data-secondsdelay="" class="text-danger">
+                      <span data-text="text"></span>
                     </div>
                   </div>
                 </div>
