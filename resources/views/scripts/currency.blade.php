@@ -604,6 +604,11 @@
     });
 
     function onchangebillincheckbox(element){
-        console.log(element)
+        if(element.checked){
+            console.log("esta seleccionado");
+        }
+        else{
+            console.log("No esta seleccionado");
+        }
     }
 </script>
