@@ -457,7 +457,7 @@
             updateShippingPrice(element,currency, total);
         });
 
-        document.getElementById('checkbox_billing_info').addEventListener('change', function(){
+        document.getElementById('checkbox_billing_info').addEventListener('click', function(){
             console.log('hola');
             if (this.checked) {
                 console.log("Checkbox is checked..");

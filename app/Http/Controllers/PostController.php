@@ -43,7 +43,6 @@ class PostController extends Controller
             'subtotal_dolar'            => $request->input('subtotal_dolar'),
             'product_shipping'          => $request->input('product_shipping'),
             'total_dolar'               => $request->input('total_dolar'),
-            'ccType'                    => $request->input('ccType'),
             'client_ip'                 => $request->ip()
         ]);
 
