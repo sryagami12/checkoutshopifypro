@@ -1925,9 +1925,9 @@
               <div data-text="text" id="iej0z2" data-secondsdelay="" class="ch-express-checkout-group-title"> Express Checkout </div>
             </div>
             <div id="ieyjp" data-secondsdelay="">
-              <div data-text="text" id="i4deo6" align="center" data-secondsdelay="">Contact Information </div>
+              <div data-text="text" id="i4deo6" align="center" data-secondsdelay="">Información de Contacto </div>
               <div id="i5goz" align="left" class="form">
-                <input type="text" name="emailAddress" placeholder="Email Address" id="ip2vry" customval="" class="form-input">
+                <input type="text" name="emailAddress" placeholder="Correo electrónico" id="ip2vry" customval="" class="form-input">
               </div>
             </div>
             <div id="icamgj" data-secondsdelay="">
