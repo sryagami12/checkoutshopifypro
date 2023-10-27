@@ -2224,13 +2224,13 @@
                 </div>
                 <input type="text" tabindex="-1" name="province-hidden" autocomplete="address-level1" id="ig9f1c" customval="" placeholder="">
                 <div data-secondsdelay="" class="col-12 col-xl-4 pr-xl-0 field">
-                  <div id="i7n8s" data-secondsdelay="" class="select-wrap">
-                    <select name="shipState" aria-required="true" aria-invalid="false" type="select" customval="" value="" id="ifjbi" class="form-control ch-select select-shipping-province ch-dirty pristine untouched fk-form-select">
-                      <option data-text="text" value="" data-secondsdelay="">Select state</option>
-                    </select>
-                    <div data-text="text" data-secondsdelay="" class="ch-select-arrow"></div>
-                    <div data-secondsdelay="" class="text-danger">
-                      <span data-text="text"></span>
+                  <div data-secondsdelay="" class="col-12 field">
+                    <div id="i4l0pr" data-secondsdelay="" class="input-wrap">
+                      <input maxlength="25" name="phoneNumber" autocomplete="tel" type="tel" aria-required="true" aria-invalid="false" placeholder="State" customval="" id="is6hka" class="form-control ch-input input-shipping-phone pristine untouched">
+                      <label for="shipping_phone" class="input-label"></label>
+                      <div data-secondsdelay="" class="text-danger">
+                        <span data-text="text"></span>
+                      </div>
                     </div>
                   </div>
                 </div>
