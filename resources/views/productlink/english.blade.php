@@ -2573,18 +2573,17 @@
                           </div>
                         </div>
                       </div>
-                      <div data-secondsdelay="" class="col-12 col-xl-4 pr-xl-0 field">
-                        <div id="imb9i5" data-secondsdelay="" class="select-wrap">
-                          <select name="state" aria-required="true" aria-invalid="false" type="select" customval="" value="" id="i1zqig" class="form-control ch-select select-shipping-province ch-dirty pristine untouched fk-form-select">
-                            <option data-text="text" value="" data-secondsdelay="">Select state</option>
-                          </select>
-                          <div data-text="text" data-secondsdelay="" class="ch-select-arrow"></div>
-                          <div data-secondsdelay="" class="text-danger">
-                            <span data-text="text"></span>
+                      
+                      <div data-secondsdelay="" class="col-12 col-xl-4 field">
+                        <div id="iub7a" data-secondsdelay="" class="col-12 col-xl-4 field">
+                          <div id="i8d7f" data-secondsdelay="" class="input-wrap">
+                            <input data-vv-validate-on="blur" name="state" autocomplete="State" type="text" inputmode="numeric" aria-required="true" aria-invalid="true" placeholder="State" customval="" id="ixux3d" class="form-control ch-input input-shipping-zip pristine untouched">
+                            <label for="shipping_zip" class="input-label"></label>
+                            <div data-secondsdelay="" class="text-danger">
+                              <span data-text="text"></span>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div data-secondsdelay="" class="col-12 col-xl-4 field">
                         <div id="iyi0fw" data-secondsdelay="" class="input-wrap">
                           <input data-vv-validate-on="blur" name="postalCode" autocomplete="postal-code" pattern="[0-9-]*" type="text" inputmode="numeric" aria-required="true" aria-invalid="true" placeholder="Postal Code" customval="" id="ip5kii" class="form-control ch-input input-shipping-zip pristine untouched">
                           <label for="shipping_zip" class="input-label"></label>
