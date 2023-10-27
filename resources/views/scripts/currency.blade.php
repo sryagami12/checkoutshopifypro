@@ -457,15 +457,6 @@
             updateShippingPrice(element,currency, total);
         });
 
-        document.getElementById('checkbox_billing_info').addEventListener('click', function(){
-            console.log('hola');
-            if (this.checked) {
-                console.log("Checkbox is checked..");
-            } else {
-                console.log("Checkbox is not checked..");
-            }
-        });
-
         function updateActualCuntry(timezonetocountry){
             if (Intl) {
                 userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
@@ -611,4 +602,8 @@
             }
         }
     });
+
+    function onchangebillincheckbox(element){
+        console.log(element)
+    }
 </script>
