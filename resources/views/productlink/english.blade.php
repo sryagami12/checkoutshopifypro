@@ -2678,7 +2678,7 @@
                <div align="right" id="irhzml" data-secondsdelay="" class="fk-element-container">
                 <label id="ifgufp" class="cart-display">Precio</label>
                 <span data-text="text" data-secondsdelay="" id="product_price_label" >{{$productlink->product_price}}</span>
-                <input type="text" value="{{$productlink->product_price}}" name="product_quantity" hidden>
+                <input type="text" value="{{$productlink->product_price}}" name="product_price" hidden>
              </div>
               <hr id="isf6dh-2" class="fk-line horizontal-line-default">
               <div align="right" id="irhzml" data-secondsdelay="" class="fk-element-container">
