@@ -1896,95 +1896,12 @@
                 </svg>
               </li>
               <li aria-current="step" id="ipinv" class="breadcrumb__item breadcrumb__item--current">
-                <span data-text="text" data-ch-type="text" id="ilxtyu-2" data-secondsdelay="" class="breadcrumb__text">Checkout</span>
+                <span data-text="text" data-ch-type="text" id="ilxtyu-2" data-secondsdelay="" class="breadcrumb__text">Thanks for purchase... :)</span>
               </li>
             </ul>
           </section>
         </div>
         <div align="center" id="ixcmd" data-secondsdelay="" class="fk-col col-12 col-lg-5 d-none d-lg-flex order-1 order-lg-2 sidebar"></div>
-      </div>
-      <div id="inus1" data-secondsdelay="" class="fk-row flex flex-wrap bsFlexWrapClass">
-        <div align="center" id="i33dp" data-secondsdelay="" class="fk-col col-12 col-lg-5 col-xl-5 order-1 order-lg-2 sidebar">
-          <section id="i22liz" class="wrap">
-            <div id="ip30ig" data-secondsdelay="" class="fk-shopping-cart">
-              <div data-secondsdelay="" class="row"></div>
-              <table id="fk-dynamic-cart-table" class="table-class">
-                <thead id="fk-dynamic-cart-head">
-                  <tr data-text="text" data-secondsdelay=""></tr>
-                </thead>
-                <tbody id="fk-dynamic-cart-body">
-                  <tr>
-                    <td class="cell"></td>
-                  </tr>
-                </tbody>
-              </table>
-               <hr id="idffaw" class="fk-line horizontal-line-default">
-               <div align="right" id="irhzml" data-secondsdelay="" class="fk-element-container">
-                  <label id="ifgufp" class="cart-display"><b>{{$productlink->product_name}}</b></label>
-                  <input type="text" value="{{$productlink->product_name}}" name="product_name" hidden>
-               </div>
-               <div align="right" id="irhzml" data-secondsdelay="" class="fk-element-container">
-                  <label id="ifgufp" class="cart-display">Quantity</label>
-                  <span data-text="text" data-secondsdelay="" id="i6l04g">{{$productlink->product_quantity}}</span>
-                  <input type="text" value="{{$productlink->product_quantity}}" name="product_quantity" hidden>
-               </div>
-               <div align="right" id="irhzml" data-secondsdelay="" class="fk-element-container">
-                <label id="ifgufp" class="cart-display">Price</label>
-                <span data-text="text" data-secondsdelay="" id="product_price_label" >{{$productlink->product_price}}</span>
-                <input type="text" value="{{$productlink->product_price}}" name="product_price" hidden>
-             </div>
-              <hr id="isf6dh-2" class="fk-line horizontal-line-default">
-              <div align="right" id="irhzml" data-secondsdelay="" class="fk-element-container">
-                <label id="ifgufp" class="cart-display">Sub Total</label>
-                <span data-text="text" data-secondsdelay="" id="subtotal_label">$ {{$productlink->product_price}}</span>
-                <input type="text" value="{{$productlink->product_price}}" name="product_price" hidden>
-                <input type="text" value="" id = "subtotal_dolar" name="subtotal_dolar" hidden>
-              </div>
-              <div align="right" id="ino1wq" data-secondsdelay="" class="fk-element-container">
-                <label id="iw6gzo" class="cart-display">Shipping</label>
-                <span data-text="text" data-secondsdelay="" id="shipping_label">$ {{$productlink->checkout_taxes_value}}</span>
-                <input type="text" value="{{$productlink->checkout_taxes_value}}" name="product_shipping" hidden>
-              </div>
-              <hr id="im3csi-2" class="fk-line horizontal-line-default">
-              <div align="right" id="ikobfq" data-secondsdelay="" class="fk-element-container">
-                <label id="i4ab4d" class="cart-display">Total</label>
-                <span data-text="text" data-secondsdelay="" id="total_label">$ {{$productlink->product_price}}</span>
-                <input type="text" value="0" id = "total_dolar" name="total_dolar" hidden>
-              </div>
-            </div>
-            <div id="iu62du-3" data-secondsdelay="" class="ch-express-checkout-group-or-line">
-              <span data-text="text" id="i9ptpj-3" data-secondsdelay="">Why Choose Us?</span>
-            </div>
-            <div id="i6hu8-2" data-secondsdelay="">
-              <div id="ippom-2" data-secondsdelay="" class="fk-row">
-                <div id="ikt2e-2" align="center" data-secondsdelay="" class="fk-col col-sm-3">
-                  <img id="fkt-image-198-f9d-98a-2" title="" target="_self" src="https://assets.funnelkonnekt.com/f09818f0-af22-11ea-afe1-abac30942df7/money_back.webp" href="#" align="center" alt="" width="" height="" onclick="" class="re-fk-lazy">
-                </div>
-                <div id="io4dt-2" data-secondsdelay="" class="fk-col col-sm-9">
-                  <div id="iy5dj4-2" data-secondsdelay="">
-                    <div id="i56iqd-2" data-secondsdelay="">
-                      <p data-text="text" id="inaau-2" data-secondsdelay="">30-day Satisfaction guarantee with Money Back </p>
-                      <p data-text="text" id="i0c26-2" data-secondsdelay="">If you're not satisfied with your products we will issue a full refund, no questions asked. </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div id="iwxun-2" data-secondsdelay="" class="fk-row">
-                <div id="invuf-2" align="center" data-secondsdelay="" class="fk-col col-sm-3">
-                  <img id="fkt-image-5cb-7b3-b16-2" title="" target="_self" src="https://assets.funnelkonnekt.com/f09818f0-af22-11ea-afe1-abac30942df7/mail_truck.webp" href="#" align="center" alt="" width="" height="" onclick="" class="re-fk-lazy">
-                </div>
-                <div id="itq93-2" data-secondsdelay="" class="fk-col col-sm-9">
-                  <div id="ihih9g-2" data-secondsdelay="">
-                    <div id="i0yial-2" data-secondsdelay="">
-                      <p data-text="text" id="idkak-2" data-secondsdelay="">Over 45,579 successfully shipped orders </p>
-                      <p data-text="text" id="iyxzl-2" data-secondsdelay="">We've made as many happy customers as orders we've shipped. You simply have to join our big family. </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
       </div>
     </div>
     <script id="scriptData">
