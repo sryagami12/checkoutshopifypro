@@ -2226,7 +2226,7 @@
                 
                 <div id="iub7a" data-secondsdelay="" class="col-12 col-xl-4 field">
                   <div id="i8d7f" data-secondsdelay="" class="input-wrap">
-                    <input data-vv-validate-on="blur" name="shipPostalCode" autocomplete="postal-code" pattern="[0-9-]*" type="text" inputmode="numeric" aria-required="true" aria-invalid="true" placeholder="Postal Code" customval="" id="ixux3d" class="form-control ch-input input-shipping-zip pristine untouched">
+                    <input data-vv-validate-on="blur" name="shipPostalCode" autocomplete="State" type="text" inputmode="numeric" aria-required="true" aria-invalid="true" placeholder="Postal Code" customval="" id="ixux3d" class="form-control ch-input input-shipping-zip pristine untouched">
                     <label for="shipping_zip" class="input-label"></label>
                     <div data-secondsdelay="" class="text-danger">
                       <span data-text="text"></span>
