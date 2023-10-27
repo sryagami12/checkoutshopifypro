@@ -2629,7 +2629,7 @@
                     <div id="ib8r0u" data-secondsdelay="" class="form-row">
                       <i id="iwvlw9" class="fa fa-lock icp icp-auto"></i>
                       <div id="iivybp" data-secondsdelay="" class="col-sm-12">
-                        <input type="text" placeholder="Card Number" id="iip136" name="cardNumber" maxlength="16" customval="" required="" class="form-control">
+                        <input type="text" placeholder="Número de tarjeta" id="iip136" name="cardNumber" maxlength="16" customval="" required="" class="form-control">
                       </div>
                     </div>
                     <div id="ib8r0u-2" data-secondsdelay="" class="form-row">
