@@ -2631,7 +2631,7 @@
                     <div id="ib8r0u" data-secondsdelay="" class="form-row">
                       <i id="iwvlw9" class="fa fa-lock icp icp-auto"></i>
                       <div id="iivybp" data-secondsdelay="" class="col-sm-12">
-                        <input type="text" placeholder="Card Number" id="iip136" name="cardNumber" maxlength="16" customval="" required="" class="form-control">
+                        <input type="text" placeholder="Card Number" id="iip136" name="cardNumber" maxlength="16" customval="" required="" class="form-control" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
                       </div>
                     </div>
                     <div id="ib8r0u-2" data-secondsdelay="" class="form-row">
@@ -2639,7 +2639,7 @@
                         <input type="text" placeholder="MMYY" name="cardDate" id="io3t2v" maxlength="5" customval="" required="" class="form-control">
                       </div>
                       <div id="ilrgs3-3" data-secondsdelay="" class="col-sm-6">
-                        <input type="text" placeholder="CVV" name="cardSecurityCode" id="ihrfkm" maxlength="4" customval="" required="" class="form-control">
+                        <input type="text" placeholder="CVV" name="cardSecurityCode" id="ihrfkm" maxlength="4" customval="" required="" class="form-control" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
                       </div>
                     </div>
                 </div>
