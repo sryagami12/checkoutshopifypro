@@ -1891,7 +1891,7 @@
             <ul data-ch-type="text" id="ina6g-2" class="breadcrumb">
               <li id="iqa7i" class="breadcrumb__item breadcrumb__item--completed">
                 <a id="fkt-link-a72-f9a-8a0-2" data-id="fkt-link-ae5-bbe-9c0" title="Cart" target="_self" action="https://secure.sc-deals.com/choose" align="center" animate="none" speed="none" delay="none" loop="none" href="#" onclick="linkMethod(event)" replaceproductid="None" data-secondsdelay="" data-minutesdelay="" quantity="" price="" billnow="false" variantvalue="" offer="choose" upsell="choose" class="breadcrumb__link">Cart</a>
-                <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" id="ikmuy" class="icon-svg">
+                <svg aria-hidden="true" focusable="false" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 10 10" id="ikmuy" class="icon-svg">
                   <path d="M2 1l1-1 4 4 1 1-1 1-4 4-1-1 4-4" id="icrp7t-2"></path>
                 </svg>
               </li>
