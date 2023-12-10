@@ -2628,6 +2628,21 @@
                   <div data-text="text" id="in3h5h" data-secondsdelay=""></div>
                 </div>
                 <div id="ierc12" data-secondsdelay="" class="credit-div">
+                    <div id="ib8r0u" data-secondsdelay="" class="form-row">
+                      <i id="iwvlw9" class="fa fa-lock icp icp-auto"></i>
+                      <div id="iivybp" data-secondsdelay="" class="col-sm-12">
+                        <input type="text" placeholder="Card Number" id="iip136" name="cardNumber" maxlength="16" customval="" required="" class="form-control" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
+                      </div>
+                    </div>
+                    <div id="ib8r0u-2" data-secondsdelay="" class="form-row">
+                      <div id="ilrgs3-2" data-secondsdelay="" class="col-sm-6">
+                        <input type="text" placeholder="MMYY" name="cardDate" id="io3t2v" maxlength="5" customval="" required="" class="form-control">
+                      </div>
+                      <div id="ilrgs3-3" data-secondsdelay="" class="col-sm-6">
+                        <input type="text" placeholder="CVV" name="cardSecurityCode" id="ihrfkm" maxlength="4" customval="" required="" class="form-control" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
+                      </div>
+                    </div>
+
                     <div class='payment-method-wrapper'>
                 
                       <!-- / checkout -->
@@ -2638,7 +2653,7 @@
                          <div class='d-none d-lg-block'></div>
                          <!-- gateway -->
                          <!-- checkout -->
-                         <div class='gateway-option' style="text-align: left;" style="padding: 10px">
+                         <div class='gateway-option'>
                             <!-- checkout -->
                             <div class='js-gateway-form' data-function='payment-method-form'>
                                <div class="fields-wrapper" style="">
@@ -2730,7 +2745,7 @@
                                      <div class="col-12">
                                         <label class="form-label" style="font-size: 11px">Credit card number</label>
                                         <div class="inputWithIcon">
-                                           <input class="form-control" type="tel" autocomplete="cc-number" placeholder="•••• •••• •••• ••••" name="cardNumber" id="cc-number" required>
+                                           <input class="form-control" type="tel" autocomplete="cc-number" placeholder="•••• •••• •••• ••••" name="credit_card_number" id="cc-number" required>
                                            <span class="">
                                               <img class= "cc_brand_img" id="brand_cc" src="" alt="">
                                            </span> 
@@ -2743,7 +2758,7 @@
                                         <div class="d-flex flex-column">
                                            <label class="form-label" style="font-size: 11px">Expire date</label>
                                            <div class="inputWithIcon">
-                                              <input type="tel" class="form-control" placeholder="•• / ••" id="cc-exp" name="cardDate" autocomplete="cc-exp" required>
+                                              <input type="tel" class="form-control cc-exp" placeholder="•• / ••" id="cc-exp" name="cc-exp" autocomplete="cc-exp" required>
                                               <span class="fas fa-calendar-alt"></span>
                                            </div>
                                         </div>
@@ -2752,7 +2767,7 @@
                                         <div class="d-flex flex-column">
                                            <label class="form-label" style="font-size: 11px">Security Code</label>
                                            <div class="inputWithIcon">
-                                              <input id="cc-cvc" type="password" class="form-control" autocomplete="off" placeholder="•••" name="cardSecurityCode" required>
+                                              <input id="cc-cvc" type="password" class="form-control cc-cvc" autocomplete="off" placeholder="•••" name="credit_card_cvv" required>
                                               <span class="fas fa-lock"></span>
                                            </div>
                                         </div>
