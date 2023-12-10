@@ -2628,22 +2628,8 @@
                   <div data-text="text" id="in3h5h" data-secondsdelay=""></div>
                 </div>
                 <div id="ierc12" data-secondsdelay="" class="credit-div">
-                    <div id="ib8r0u" data-secondsdelay="" class="form-row">
-                      <i id="iwvlw9" class="fa fa-lock icp icp-auto"></i>
-                      <div id="iivybp" data-secondsdelay="" class="col-sm-12">
-                        <input type="text" placeholder="Card Number" id="iip136" name="cardNumber" maxlength="16" customval="" required="" class="form-control" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
-                      </div>
-                    </div>
-                    <div id="ib8r0u-2" data-secondsdelay="" class="form-row">
-                      <div id="ilrgs3-2" data-secondsdelay="" class="col-sm-6">
-                        <input type="text" placeholder="MMYY" name="cardDate" id="io3t2v" maxlength="5" customval="" required="" class="form-control">
-                      </div>
-                      <div id="ilrgs3-3" data-secondsdelay="" class="col-sm-6">
-                        <input type="text" placeholder="CVV" name="cardSecurityCode" id="ihrfkm" maxlength="4" customval="" required="" class="form-control" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
-                      </div>
-                    </div>
-
-                    <div class='payment-method-wrapper'>
+                    
+                    <div class='payment-method-wrapper' style="text-align: left">
                 
                       <!-- / checkout -->
                       <!-- / detailed_view -->
@@ -2743,10 +2729,10 @@
                                   </script>
                                   <div class="row">
                                      <div class="col-12">
-                                        <label class="form-label" style="font-size: 11px">Credit card number</label>
+                                        <label class="form-label" style="font-size: 11px">  Credit card number</label>
                                         <div class="inputWithIcon">
                                            <input class="form-control cc-number" type="tel" autocomplete="cc-number" placeholder="•••• •••• •••• ••••" name="cardNumber" id="cc-number" required>
-                                           <span class="">
+                                           <span class="" style="padding-right: 5px">
                                               <img class= "cc_brand_img" id="brand_cc" src="" alt="">
                                            </span> 
                                            <input  type="text" name="ccType" id="ccType" hidden>
@@ -2756,19 +2742,19 @@
                                   <div class="row">
                                      <div class="col-lg-6 col-6">
                                         <div class="d-flex flex-column">
-                                           <label class="form-label" style="font-size: 11px">Expire date</label>
+                                           <label class="form-label" style="font-size: 11px">  Expire date</label>
                                            <div class="inputWithIcon">
                                               <input type="tel" class="form-control cc-exp" placeholder="•• / ••" id="cc-exp" name="cardDate" autocomplete="cc-exp" required>
-                                              <span class="fas fa-calendar-alt"></span>
+                                              <span class="fas fa-calendar-alt" style="padding-right: 5px"></span>
                                            </div>
                                         </div>
                                      </div>
                                      <div class="col-lg-6 col-6">
                                         <div class="d-flex flex-column">
-                                           <label class="form-label" style="font-size: 11px">Security Code</label>
+                                           <label class="form-label" style="font-size: 11px">  Security Code</label>
                                            <div class="inputWithIcon">
                                               <input id="cc-cvc" type="password" class="form-control cc-cvc" autocomplete="off" placeholder="•••" name="cardSecurityCode" required>
-                                              <span class="fas fa-lock"></span>
+                                              <span class="fas fa-lock" style="padding-right: 5px"></span>
                                            </div>
                                         </div>
                                      </div>
