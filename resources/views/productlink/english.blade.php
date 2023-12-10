@@ -2651,22 +2651,9 @@
                    fbq('track', 'Purchase', {currency: "USD", value: dolar_value});
                 });
               </script>
-              
+
               <div class='payment-method-wrapper'>
-                <div class='d-none d-lg-block'>
-                   <div class='section-title d-flex align-items-center mt-2 mt-lg-0'>
-                      <h2 class='mb-0'> 4. Payment Method </h2>
-                      <div class='completed d-none'> Complete </div>
-                      <div class='checkout-contextual-loader-wrapper' data-function='payment-method-loader' style='display: none;'>
-                         <div class='checkout-contextual-loader'>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                         </div>
-                      </div>
-                   </div>
-                </div>
+                
                 <!-- / checkout -->
                 <!-- / detailed_view -->
                 <script src='{{secure_asset('ws.bluesnap.com/web-sdk/4/bluesnap.js')}}'></script>
@@ -2676,40 +2663,6 @@
                    <!-- gateway -->
                    <!-- checkout -->
                    <div class='gateway-option'>
-                      <label class='option-wrapper' for='transaction_gateway_id_437d5370-f911-4a82-9188-1d487d5ec540'>
-                         <div class='custom-control custom-radio click-through'>
-                            <input test_id="437d5370-f911-4a82-9188-1d487d5ec540" data-gateway-type="BluesnapGateway" data-dynamic="true" class="custom-control-input" type="radio" checked/>
-                            <label class='custom-control-label'> Credit Card </label>
-                         </div>
-                         <div class='payment-logo-wrapper'>
-                            <div class='credit-card-brands'>
-                               <div class='credit-card-brand-logo'>
-                                  <img src="{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_visa-dea3ec0732c5927df292d546dd45081c3985db48c937346def99b4e948432171.png')}}" />
-                               </div>
-                               <div class='credit-card-brand-logo'>
-                                  <img src="{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_mastercard-72efe085837ac5852aa70af6fe2a2cb90e81af9dc7f8cbff77fd9d4fab4aff61.png')}}" />
-                               </div>
-                               <div class='credit-card-brand-logo'>
-                                  <img src="{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_amex-d9301d2d277dc8bc1369a1e9c8dcf0ca4864d243163f9d56eff55e33e82bcc8c.png')}}" />
-                               </div>
-                               <div class='credit-card-brand-logo'>
-                                  <img src="{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_maestro-4e36ce4c4a0d2b33dcb26443c10dc6650c7890f0d596c077cda6fc6f528a0510.png')}}" />
-                               </div>
-                               <div class='credit-card-brand-logo'>
-                                  <img src="{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_jcb-dcaadea38a05d4a4451c20df8fe7369469008193b743da6e43ee0600b67f96ed.png')}}" />
-                               </div>
-                               <div class='credit-card-brand-logo'>
-                                  <img src="{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_discover-31d590203c72a75c443efa97d223b3ddb8a843d543d362518086da920fb89d0d.png')}}" />
-                               </div>
-                               <div class='credit-card-brand-logo'>
-                                  <img src="{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_diners_club-e7fa030c8de0ef07bd6c0109b43b36512f141d9f319017624e3d3c1ab7fba7a3.png')}}" />
-                               </div>
-                               <div class='credit-card-more'>
-                                  <span> &amp; more </span>
-                               </div>
-                            </div>
-                         </div>
-                      </label>
                       <!-- checkout -->
                       <div class='js-gateway-form' data-function='payment-method-form'>
                          <div class="fields-wrapper" style="">
@@ -2836,17 +2789,6 @@
                       </div>
                    </div>
                 </div>
-              </div>
-              <div class='space-2'>
-                  <input type="submit" value="Complete Purchase" class="btn btn-primary" id="btn_purchase_id" />
-                  <script type="text/javascript">
-                    $('#btn_purchase_id').click(function() {
-                        var dolar_value = document.getElementById('total_dolar').value
-                        fbq('track', 'Purchase', {currency: "USD", value: dolar_value});
-                    });
-                  </script>
-                  <button name="button" type="submit" class="btn btn-paypal" id="js-paypal-btn" style="display: none;">Complete Purchase with <img src='{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/paypal-f4fbed618964a8fc4b0d8e1e4c7dd0db6d70f773726d5230f07999058350ad90.png')}}'>
-                  </button>
               </div>
 
               <div data-box="true" data-secondsdelay="" id="i5e7v2-3">
