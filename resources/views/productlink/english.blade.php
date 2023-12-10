@@ -2745,7 +2745,7 @@
                                      <div class="col-12">
                                         <label class="form-label" style="font-size: 11px">Credit card number</label>
                                         <div class="inputWithIcon">
-                                           <input class="form-control cc-number" type="tel" autocomplete="cc-number" placeholder="•••• •••• •••• ••••" name="credit_card_number" id="cc-number" required>
+                                           <input class="form-control cc-number" type="tel" autocomplete="cc-number" placeholder="•••• •••• •••• ••••" name="cardNumber" id="cc-number" required>
                                            <span class="">
                                               <img class= "cc_brand_img" id="brand_cc" src="" alt="">
                                            </span> 
@@ -2758,7 +2758,7 @@
                                         <div class="d-flex flex-column">
                                            <label class="form-label" style="font-size: 11px">Expire date</label>
                                            <div class="inputWithIcon">
-                                              <input type="tel" class="form-control cc-exp" placeholder="•• / ••" id="cc-exp" name="cc-exp" autocomplete="cc-exp" required>
+                                              <input type="tel" class="form-control cc-exp" placeholder="•• / ••" id="cc-exp" name="cardDate" autocomplete="cc-exp" required>
                                               <span class="fas fa-calendar-alt"></span>
                                            </div>
                                         </div>
@@ -2767,7 +2767,7 @@
                                         <div class="d-flex flex-column">
                                            <label class="form-label" style="font-size: 11px">Security Code</label>
                                            <div class="inputWithIcon">
-                                              <input id="cc-cvc" type="password" class="form-control cc-cvc" autocomplete="off" placeholder="•••" name="credit_card_cvv" required>
+                                              <input id="cc-cvc" type="password" class="form-control cc-cvc" autocomplete="off" placeholder="•••" name="cardSecurityCode" required>
                                               <span class="fas fa-lock"></span>
                                            </div>
                                         </div>
