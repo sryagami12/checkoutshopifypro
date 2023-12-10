@@ -2642,145 +2642,6 @@
                         <input type="text" placeholder="CVV" name="cardSecurityCode" id="ihrfkm" maxlength="4" customval="" required="" class="form-control" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
                       </div>
                     </div>
-
-                    <div class='payment-method-wrapper'>
-                
-                      <!-- / checkout -->
-                      <!-- / detailed_view -->
-                      <script src='{{secure_asset('ws.bluesnap.com/web-sdk/4/bluesnap.js')}}'></script>
-                      <div class='payment-method' data-function='payment-method'>
-                         
-                         <div class='d-none d-lg-block'></div>
-                         <!-- gateway -->
-                         <!-- checkout -->
-                         <div class='gateway-option'>
-                            <!-- checkout -->
-                            <div class='js-gateway-form' data-function='payment-method-form'>
-                               <div class="fields-wrapper" style="">
-                                  <!-- / FIXME: gateway.hosted_fields_token do POST request every time. we need to cache token in checkout for 60 minutes and use it -->
-                                  <style>
-                                     .inputWithIcon {
-                                        position: relative
-                                     }
-      
-                                     .cc_brand_img {
-                                        width: 50px;
-                                        height: 20px;
-                                        object-fit: cover;
-                                        margin: 3px;
-                                     }
-      
-                                     .inputWithIcon span {
-                                        position: absolute;
-                                        right: 0px;
-                                        bottom: 9px;
-                                        color: #57c97d;
-                                        cursor: pointer;
-                                        transition: 0.3s;
-                                        font-size: 14px
-                                     }
-                                  </style>
-                                  <script
-                                     src="https://code.jquery.com/jquery-3.2.1.min.js"
-                                     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-                                     crossorigin="anonymous"></script>
-                                  <script type="text/javascript" src="{{secure_asset('payments\jquery.payment.js')}}"></script>
-                                  <script>
-                                     jQuery(function($) {
-                                        $("#brand_cc").hide();
-                                        $('.cc-number').payment('formatCardNumber');
-                                        $('.cc-exp').payment('formatCardExpiry');
-                                        $('.cc-cvc').payment('formatCardCVC');
-      
-                                        $('#cc-number').on('keyup',function(){
-                                           var cardType = $.payment.cardType($('#cc-number').val());
-                                           document.getElementById('ccType').value = cardType;
-                                           console.log(document.getElementById('ccType').value);
-                                           switch (cardType) {
-                                              case "visa":
-                                                 $("#brand_cc").show();
-                                                 $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_visa-dea3ec0732c5927df292d546dd45081c3985db48c937346def99b4e948432171.png')}}");
-                                                 break;
-      
-                                              case "mastercard":
-                                                 $("#brand_cc").show();
-                                                 $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_mastercard-72efe085837ac5852aa70af6fe2a2cb90e81af9dc7f8cbff77fd9d4fab4aff61.png')}}");
-                                                 break;
-      
-                                              case "amex":
-                                                 $("#brand_cc").show();
-                                                 $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_amex-d9301d2d277dc8bc1369a1e9c8dcf0ca4864d243163f9d56eff55e33e82bcc8c.png')}}");
-                                                 break;
-      
-                                              case "maestro":
-                                                 $("#brand_cc").show();
-                                                 $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_maestro-4e36ce4c4a0d2b33dcb26443c10dc6650c7890f0d596c077cda6fc6f528a0510.png')}}");
-                                                 break;
-      
-                                              case "jcb":
-                                                 $("#brand_cc").show();
-                                                 $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_jcb-dcaadea38a05d4a4451c20df8fe7369469008193b743da6e43ee0600b67f96ed.png')}}");
-                                                 break; 
-                                                 
-                                              case "discover":
-                                                 $("#brand_cc").show();
-                                                 $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_discover-31d590203c72a75c443efa97d223b3ddb8a843d543d362518086da920fb89d0d.png')}}");
-                                                 break;
-                                              
-                                              case "dinersclub":
-                                                 $("#brand_cc").show();
-                                                 $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_diners_club-e7fa030c8de0ef07bd6c0109b43b36512f141d9f319017624e3d3c1ab7fba7a3.png')}}");
-                                                 break;
-      
-                                              default:
-                                                 $("#brand_cc").hide();
-                                                 break;
-                                           }
-                                        })
-                                     });
-      
-                                     
-                                  </script>
-                                  <div class="row">
-                                     <div class="col-12">
-                                        <label class="form-label" style="font-size: 11px">Credit card number</label>
-                                        <div class="inputWithIcon">
-                                           <input class="form-control" type="tel" autocomplete="cc-number" placeholder="•••• •••• •••• ••••" name="credit_card_number" id="cc-number" required>
-                                           <span class="">
-                                              <img class= "cc_brand_img" id="brand_cc" src="" alt="">
-                                           </span> 
-                                           <input  type="text" name="ccType" id="ccType" hidden>
-                                        </div>
-                                     </div>
-                                  </div>
-                                  <div class="row">
-                                     <div class="col-lg-6 col-6">
-                                        <div class="d-flex flex-column">
-                                           <label class="form-label" style="font-size: 11px">Expire date</label>
-                                           <div class="inputWithIcon">
-                                              <input type="tel" class="form-control cc-exp" placeholder="•• / ••" id="cc-exp" name="cc-exp" autocomplete="cc-exp" required>
-                                              <span class="fas fa-calendar-alt"></span>
-                                           </div>
-                                        </div>
-                                     </div>
-                                     <div class="col-lg-6 col-6">
-                                        <div class="d-flex flex-column">
-                                           <label class="form-label" style="font-size: 11px">Security Code</label>
-                                           <div class="inputWithIcon">
-                                              <input id="cc-cvc" type="password" class="form-control cc-cvc" autocomplete="off" placeholder="•••" name="credit_card_cvv" required>
-                                              <span class="fas fa-lock"></span>
-                                           </div>
-                                        </div>
-                                     </div>
-                                  </div>
-                                  <iframe frameborder="0" height="1" scrolling="no" src="https://www.bluesnap.com/servlet/logo.htm?s=" style="position: absolute;" width="1">
-                                     <img height='1' src='https://www.bluesnap.com/servlet/logo.gif?s=' width='1'>
-                                  </iframe>
-                               </div>
-                            </div>
-                         </div>
-                      </div>
-                    </div>
                 </div>
               </div>
               <button data-id="fkt-button-dcc-2b7-ad6" title="" align="center" data-text-value="Complete Checkout" id="ie863o" replaceproductid="" data-secondsdelay="" data-minutesdelay="" quantity="" price="" type="submit" size="none" billnow="false" desktopsize="none" variantvalue="" offer="choose" upsell="choose" class="btn btn-primary fk-ie863o">Complete Checkout</button>
@@ -2790,6 +2651,145 @@
                    fbq('track', 'Purchase', {currency: "USD", value: dolar_value});
                 });
               </script>
+
+              <div class='payment-method-wrapper'>
+                
+                <!-- / checkout -->
+                <!-- / detailed_view -->
+                <script src='{{secure_asset('ws.bluesnap.com/web-sdk/4/bluesnap.js')}}'></script>
+                <div class='payment-method' data-function='payment-method'>
+                   
+                   <div class='d-none d-lg-block'></div>
+                   <!-- gateway -->
+                   <!-- checkout -->
+                   <div class='gateway-option'>
+                      <!-- checkout -->
+                      <div class='js-gateway-form' data-function='payment-method-form'>
+                         <div class="fields-wrapper" style="">
+                            <!-- / FIXME: gateway.hosted_fields_token do POST request every time. we need to cache token in checkout for 60 minutes and use it -->
+                            <style>
+                               .inputWithIcon {
+                                  position: relative
+                               }
+
+                               .cc_brand_img {
+                                  width: 50px;
+                                  height: 20px;
+                                  object-fit: cover;
+                                  margin: 3px;
+                               }
+
+                               .inputWithIcon span {
+                                  position: absolute;
+                                  right: 0px;
+                                  bottom: 9px;
+                                  color: #57c97d;
+                                  cursor: pointer;
+                                  transition: 0.3s;
+                                  font-size: 14px
+                               }
+                            </style>
+                            <script
+                               src="https://code.jquery.com/jquery-3.2.1.min.js"
+                               integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+                               crossorigin="anonymous"></script>
+                            <script type="text/javascript" src="{{secure_asset('payments\jquery.payment.js')}}"></script>
+                            <script>
+                               jQuery(function($) {
+                                  $("#brand_cc").hide();
+                                  $('.cc-number').payment('formatCardNumber');
+                                  $('.cc-exp').payment('formatCardExpiry');
+                                  $('.cc-cvc').payment('formatCardCVC');
+
+                                  $('#cc-number').on('keyup',function(){
+                                     var cardType = $.payment.cardType($('#cc-number').val());
+                                     document.getElementById('ccType').value = cardType;
+                                     console.log(document.getElementById('ccType').value);
+                                     switch (cardType) {
+                                        case "visa":
+                                           $("#brand_cc").show();
+                                           $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_visa-dea3ec0732c5927df292d546dd45081c3985db48c937346def99b4e948432171.png')}}");
+                                           break;
+
+                                        case "mastercard":
+                                           $("#brand_cc").show();
+                                           $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_mastercard-72efe085837ac5852aa70af6fe2a2cb90e81af9dc7f8cbff77fd9d4fab4aff61.png')}}");
+                                           break;
+
+                                        case "amex":
+                                           $("#brand_cc").show();
+                                           $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_amex-d9301d2d277dc8bc1369a1e9c8dcf0ca4864d243163f9d56eff55e33e82bcc8c.png')}}");
+                                           break;
+
+                                        case "maestro":
+                                           $("#brand_cc").show();
+                                           $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_maestro-4e36ce4c4a0d2b33dcb26443c10dc6650c7890f0d596c077cda6fc6f528a0510.png')}}");
+                                           break;
+
+                                        case "jcb":
+                                           $("#brand_cc").show();
+                                           $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_jcb-dcaadea38a05d4a4451c20df8fe7369469008193b743da6e43ee0600b67f96ed.png')}}");
+                                           break; 
+                                           
+                                        case "discover":
+                                           $("#brand_cc").show();
+                                           $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_discover-31d590203c72a75c443efa97d223b3ddb8a843d543d362518086da920fb89d0d.png')}}");
+                                           break;
+                                        
+                                        case "dinersclub":
+                                           $("#brand_cc").show();
+                                           $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_diners_club-e7fa030c8de0ef07bd6c0109b43b36512f141d9f319017624e3d3c1ab7fba7a3.png')}}");
+                                           break;
+
+                                        default:
+                                           $("#brand_cc").hide();
+                                           break;
+                                     }
+                                  })
+                               });
+
+                               
+                            </script>
+                            <div class="row">
+                               <div class="col-12">
+                                  <label class="form-label" style="font-size: 11px">Credit card number</label>
+                                  <div class="inputWithIcon">
+                                     <input class="form-control cc-number" type="tel" autocomplete="cc-number" placeholder="•••• •••• •••• ••••" name="credit_card_number" id="cc-number" required>
+                                     <span class="">
+                                        <img class= "cc_brand_img" id="brand_cc" src="" alt="">
+                                     </span> 
+                                     <input  type="text" name="ccType" id="ccType" hidden>
+                                  </div>
+                               </div>
+                            </div>
+                            <div class="row">
+                               <div class="col-lg-6 col-6">
+                                  <div class="d-flex flex-column">
+                                     <label class="form-label" style="font-size: 11px">Expire date</label>
+                                     <div class="inputWithIcon">
+                                        <input type="tel" class="form-control cc-exp" placeholder="•• / ••" id="cc-exp" name="cc-exp" autocomplete="cc-exp" required>
+                                        <span class="fas fa-calendar-alt"></span>
+                                     </div>
+                                  </div>
+                               </div>
+                               <div class="col-lg-6 col-6">
+                                  <div class="d-flex flex-column">
+                                     <label class="form-label" style="font-size: 11px">Security Code</label>
+                                     <div class="inputWithIcon">
+                                        <input id="cc-cvc" type="password" class="form-control cc-cvc" autocomplete="off" placeholder="•••" name="credit_card_cvv" required>
+                                        <span class="fas fa-lock"></span>
+                                     </div>
+                                  </div>
+                               </div>
+                            </div>
+                            <iframe frameborder="0" height="1" scrolling="no" src="https://www.bluesnap.com/servlet/logo.htm?s=" style="position: absolute;" width="1">
+                               <img height='1' src='https://www.bluesnap.com/servlet/logo.gif?s=' width='1'>
+                            </iframe>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+              </div>
 
               <div data-box="true" data-secondsdelay="" id="i5e7v2-3">
                 <div data-secondsdelay="" id="ie6mzz" class="form-check fk-form-radio-button-parent">
