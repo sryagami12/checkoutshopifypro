@@ -1749,6 +1749,7 @@
     <div id="__next">
       <div class="container jss1">
         <div class="jss10">
+          <div class="jss7"><a href="https://cdn.shopify.com/s/files/1/0522/7433/1830/files/Gold_and_White_Real_Estate_Agency_Logo_Template.png?v=1675458793" class="jss8"><img class="jss6" src="https://cdn.shopify.com/s/files/1/0522/7433/1830/files/Gold_and_White_Real_Estate_Agency_Logo_Template.png?v=1675458793"></a><img class="jss8" src="https://cdn.shopify.com/s/files/1/0522/7433/1830/files/class-payments.png?v=1675448311"></div>
           <div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-6">
             <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-7">
               <div class="jss16">
@@ -2055,7 +2056,6 @@
     <script src="https://pay.checkify.pro/_next/static/chunks/4bfc8259cb5a75e17befb72bb27f01ec3992c636.419a03a58b5a078e273c.js" async></script>
     <script src="https://pay.checkify.pro/_next/static/chunks/9cb10b76557002b6ffe820f5fe18c07ffedf9fdb.db3f3f9bfb5c3ae7a260.js" async></script>
     <script src="https://pay.checkify.pro/_next/static/chunks/219b602007225389974eca03ccc659cf7c094c22.fe41ec5315fc5e5e9fc7.js" async></script>
-    <script src="https://pay.checkify.pro/_next/static/chunks/pages/preview/thank-you-page-b8a8c17dbcc4cf95e427.js" async></script>
     <script src="https://pay.checkify.pro/_next/static/ycNbMjeE0f8T_uumn0D59/_buildManifest.js" async></script>
     <script src="https://pay.checkify.pro/_next/static/ycNbMjeE0f8T_uumn0D59/_ssgManifest.js" async></script>
   </body>
