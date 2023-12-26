@@ -1843,7 +1843,7 @@
                                 <h2 class="MuiTypography-root jss78 MuiTypography-h2">{{$productlink->product_name}}</h2>
                                 <h2 class="MuiTypography-root jss76 MuiTypography-h2">
                                   
-                                  <span class="money" id="total_1">$ {{number_format($product_price, 2, '.', '')}}</span>
+                                  <span class="money" id="total_1">$ {{number_format($productlink->product_price, 2, '.', '')}}</span>
                                 </h2>
                               </div>
                               <div class="jss69"></div>
