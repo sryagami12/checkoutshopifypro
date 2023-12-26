@@ -1895,7 +1895,7 @@
       src="https://www.facebook.com/tr?id=1198371520827281&ev=PageView&noscript=1"
    /></noscript>
       <!-- End Meta Pixel Code -->
-      <link rel="icon" type="image/x-icon" href="/images/logo.png">
+      <link rel="icon" type="image/x-icon" href="{{asset('images/logo.png')}}">
   </head>
   <body class=" dom-pending">
    <form action="/store" method="POST" accept-charset="UTF-8">
