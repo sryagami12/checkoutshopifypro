@@ -12,7 +12,6 @@
     <meta name="shopify-shop" content="tuminimundo.myshopify.com" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet" />
-    <link href="https://pay.checkify.pro/favicons/popupS.css" rel="stylesheet" type="text/css" />
     <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.shopify.com/s/files/1/0522/7433/1830/files/Gold_and_White_Real_Estate_Agency_Logo_Template.png?v=1675458793" />
     <link rel="icon" type="image/x-icon" href="{{asset('images/logo.png')}}">
     <meta name="msapplication-TileColor" content="#da532c" />
@@ -2060,5 +2059,4 @@
     <script src="https://pay.checkify.pro/_next/static/ycNbMjeE0f8T_uumn0D59/_buildManifest.js" async></script>
     <script src="https://pay.checkify.pro/_next/static/ycNbMjeE0f8T_uumn0D59/_ssgManifest.js" async></script>
   </body>
-  <!-- Mirrored from pay.checkify.pro/preview/thank-you-page?storeName=tuminimundo.myshopify.com&storeId=5feea3df988b2b001129c8df by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Dec 2023 13:28:11 GMT -->
 </html>
