@@ -2847,9 +2847,9 @@
                 </tbody>
               </table>
                <hr id="idffaw" class="fk-line horizontal-line-default">
-               <div align="right" id="irhzml" data-secondsdelay="" class="fk-element-container" style="padding-bottom: 10px">
+               <div align="right" id="irhzml" data-secondsdelay="" class="fk-element-container" style="padding-bottom: 10px;">
                   <label id="ifgufp" class="cart-display"><b>{{$productlink->product_name}}</b></label>
-                  <span data-text="text" data-secondsdelay="" id="i6l04g"><img src="{{$productlink->product_image_path}}" alt="" width="20%"></span>
+                  <span data-text="text" data-secondsdelay="" id="i6l04g"><img src="{{$productlink->product_image_path}}" alt="" width="20%" style="border-radius: 9px"></span>
                   <input type="text" value="{{$productlink->product_name}}" name="product_name" hidden>
                </div>
                <div align="right" id="irhzml" data-secondsdelay="" class="fk-element-container">
