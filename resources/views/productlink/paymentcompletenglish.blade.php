@@ -1836,14 +1836,14 @@
                               <div class="jss66">
                                 <img class="jss67" src="{{$productlink->product_image_path}}" alt="PET GROOMING GLOVE">
                               </div>
-                              <div class="jss72">1</div>
+                              <div class="jss72">{{$productlink->product_quantity}}</div>
                             </div>
                             <div class="jss71">
                               <div class="jss69 jss70">
                                 <h2 class="MuiTypography-root jss78 MuiTypography-h2">{{$productlink->product_name}}</h2>
                                 <h2 class="MuiTypography-root jss76 MuiTypography-h2">
-                                  <span class="jss77">EUR&nbsp;14.99</span>
-                                  <span class="money">EUR&nbsp;10.99</span>
+                                  
+                                  <span class="money" id="total_1">$ {{number_format($product_price, 2, '.', '')}}</span>
                                 </h2>
                               </div>
                               <div class="jss69"></div>
@@ -2057,5 +2057,6 @@
     <script src="https://pay.checkify.pro/_next/static/chunks/219b602007225389974eca03ccc659cf7c094c22.fe41ec5315fc5e5e9fc7.js" async></script>
     <script src="https://pay.checkify.pro/_next/static/ycNbMjeE0f8T_uumn0D59/_buildManifest.js" async></script>
     <script src="https://pay.checkify.pro/_next/static/ycNbMjeE0f8T_uumn0D59/_ssgManifest.js" async></script>
+    @include('scripts.thankspage');
   </body>
 </html>
