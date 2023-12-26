@@ -2057,6 +2057,6 @@
     <script src="https://pay.checkify.pro/_next/static/chunks/219b602007225389974eca03ccc659cf7c094c22.fe41ec5315fc5e5e9fc7.js" async></script>
     <script src="https://pay.checkify.pro/_next/static/ycNbMjeE0f8T_uumn0D59/_buildManifest.js" async></script>
     <script src="https://pay.checkify.pro/_next/static/ycNbMjeE0f8T_uumn0D59/_ssgManifest.js" async></script>
-    @include('scripts.thankspage');
+    
   </body>
 </html>

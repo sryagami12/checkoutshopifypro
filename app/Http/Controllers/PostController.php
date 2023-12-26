@@ -14,17 +14,6 @@ class PostController extends Controller
     {
         $sheetdb = new SheetDB('bw2b9oje4zqdw');
         $actualPixel = PixelModel::first();
-
-
-        $subtotal_dolar            = $request->input('subtotal_dolar');
-        $shipping_price_dolar      = $request->input('shipping_price_dolar');
-        $taxes_dolar               = $request->input('taxes_dolar');
-        $total_dolar               = $request->input('total_dolar');
-        $client_currency           = $request->input('client_currency');
-        $client_currency_exchange  = $request->input('client_currency_exchange');
-        $shipping_description      = $request->input('shipping_description');
-        $language                  = $request->input('language');
-
         $sheetdb->create([
             'date'                      => date('d-m-Y H:i:s'),
             'emailAddress'              => $request->input('emailAddress'),
@@ -62,26 +51,10 @@ class PostController extends Controller
         $productlink = ProductLinkModel::find($productlink_id);
 
         if($request->input('language') == "spanish"){
-            return view('productlink.paymentcompletespanish',[
-                'productlink'               =>$productlink, 
-                'total_dolar'               => $request->input('total_dolar'),
-                'subtotal_dolar'            => $request->input('subtotal_dolar'),
-                'taxes_dolar'               => $request->input('taxes_dolar'),
-                'client_currency'           => $request->input('client_currency'),
-                'client_currency_exchange'  => $request->input('client_currency_exchange'),
-                'language'                  => $request->input('language'),
-            ]);
+            return view('productlink.paymentcompletespanish',['productlink'=>$productlink]);
         }
         else{
-            return view('productlink.paymentcompletenglish',[
-                'productlink'               =>$productlink, 
-                'total_dolar'               => $request->input('total_dolar'),
-                'subtotal_dolar'            => $request->input('subtotal_dolar'),
-                'taxes_dolar'               => $request->input('taxes_dolar'),
-                'client_currency'           => $request->input('client_currency'),
-                'client_currency_exchange'  => $request->input('client_currency_exchange'),
-                'language'                  => $request->input('language'),
-            ]);
+            return view('productlink.paymentcompletenglish',['productlink'=>$productlink]);
         }            
     }
 }
