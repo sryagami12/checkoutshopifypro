@@ -1834,13 +1834,13 @@
                           <div class="jss69 jss64">
                             <div class="jss65">
                               <div class="jss66">
-                                <img class="jss67" src="https://cdn.shopify.com/s/files/1/3010/4186/products/product-image-492339913.jpg?v=1571713594&amp;width=100" alt="PET GROOMING GLOVE">
+                                <img class="jss67" src="{{$productlink->product_image_path}}" alt="PET GROOMING GLOVE">
                               </div>
                               <div class="jss72">1</div>
                             </div>
                             <div class="jss71">
                               <div class="jss69 jss70">
-                                <h2 class="MuiTypography-root jss78 MuiTypography-h2">PET GROOMING GLOVE</h2>
+                                <h2 class="MuiTypography-root jss78 MuiTypography-h2">{{$productlink->product_name}}</h2>
                                 <h2 class="MuiTypography-root jss76 MuiTypography-h2">
                                   <span class="jss77">EUR&nbsp;14.99</span>
                                   <span class="money">EUR&nbsp;10.99</span>
