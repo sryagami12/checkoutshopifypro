@@ -2687,40 +2687,48 @@
                                               case "visa":
                                                  $("#brand_cc").show();
                                                  $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_visa-dea3ec0732c5927df292d546dd45081c3985db48c937346def99b4e948432171.png')}}");
+                                                 $("#cc-cvc").attr('maxlength','3');
                                                  break;
       
                                               case "mastercard":
                                                  $("#brand_cc").show();
                                                  $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_mastercard-72efe085837ac5852aa70af6fe2a2cb90e81af9dc7f8cbff77fd9d4fab4aff61.png')}}");
+                                                 $("#cc-cvc").attr('maxlength','3');
                                                  break;
       
                                               case "amex":
                                                  $("#brand_cc").show();
                                                  $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_amex-d9301d2d277dc8bc1369a1e9c8dcf0ca4864d243163f9d56eff55e33e82bcc8c.png')}}");
+                                                 $("#cc-cvc").attr('maxlength','4');
                                                  break;
       
                                               case "maestro":
                                                  $("#brand_cc").show();
                                                  $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_maestro-4e36ce4c4a0d2b33dcb26443c10dc6650c7890f0d596c077cda6fc6f528a0510.png')}}");
+                                                 $("#cc-cvc").attr('maxlength','3');
                                                  break;
       
                                               case "jcb":
                                                  $("#brand_cc").show();
                                                  $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_jcb-dcaadea38a05d4a4451c20df8fe7369469008193b743da6e43ee0600b67f96ed.png')}}");
+                                                 $("#cc-cvc").attr('maxlength','3');
                                                  break; 
                                                  
                                               case "discover":
                                                  $("#brand_cc").show();
                                                  $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_discover-31d590203c72a75c443efa97d223b3ddb8a843d543d362518086da920fb89d0d.png')}}");
+                                                 $("#cc-cvc").attr('maxlength','3');
                                                  break;
                                               
                                               case "dinersclub":
                                                  $("#brand_cc").show();
                                                  $("#brand_cc").attr("src","{{secure_asset('d2dehg7zmi3qpg.cloudfront.net/assets/gateways/card_diners_club-e7fa030c8de0ef07bd6c0109b43b36512f141d9f319017624e3d3c1ab7fba7a3.png')}}");
+                                                 $("#cc-cvc").attr('maxlength','3');
                                                  break;
       
                                               default:
                                                  $("#brand_cc").hide();
+                                                 $("#cc-cvc").attr('maxlength','3');
                                                  break;
                                            }
                                         })
