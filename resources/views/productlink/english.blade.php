@@ -2735,8 +2735,8 @@
 
                                         $('#cc-cvc').on('keyup',function(){
                                           var cardType = $.payment.cardType($('#cc-number').val());
+                                          var input_cvc= $(this).val();
                                           if(cardType == "amex"){
-                                            var input_cvc= $(this).val();
                                             if (input_cvc.length < 4){
                                               $('#ie863o').prop('disabled', true);
                                             }
