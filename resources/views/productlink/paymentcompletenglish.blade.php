@@ -1749,7 +1749,7 @@
     <div id="__next">
       <div class="container jss1">
         <div class="jss10">
-          <div class="jss7"><a href="https://cdn.shopify.com/s/files/1/0522/7433/1830/files/Gold_and_White_Real_Estate_Agency_Logo_Template.png?v=1675458793" class="jss8"><img class="jss6" src="https://cdn.shopify.com/s/files/1/0522/7433/1830/files/Gold_and_White_Real_Estate_Agency_Logo_Template.png?v=1675458793"></a><img class="jss8" src="https://cdn.shopify.com/s/files/1/0522/7433/1830/files/class-payments.png?v=1675448311"></div>
+          <div class="jss7"><a href="#" class="jss8"><img class="jss6" src=""></a><img class="jss8" src="https://cdn.shopify.com/s/files/1/0522/7433/1830/files/class-payments.png?v=1675448311"></div>
           <div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-6">
             <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-7">
               <div class="jss16">
