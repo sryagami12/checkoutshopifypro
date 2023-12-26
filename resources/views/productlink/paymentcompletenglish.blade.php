@@ -1810,7 +1810,167 @@
               </div>
             </div>
             <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-5">
-              <div class="jss32"><div class="jss35"><div class="jss33"><div style="display:flex;align-items:center"><h1 class="MuiTypography-root MuiTypography-h1" style="font-size:14px">Show Order Summary</h1><svg class="MuiSvgIcon-root jss40" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div><div class="jss37">EUR&nbsp;20.97</div></div><div class="jss28"><div class="jss43 jss39"><div class="jss44"><h1 class="MuiTypography-root jss46 jss39 MuiTypography-h1">Order Summary</h1></div><div class="jss45"></div><div class="jss47 jss39"><div class="jss55"><div class="jss63"><div class="jss69 jss64"><div class="jss65"><div class="jss66"><img class="jss67" src="https://cdn.shopify.com/s/files/1/3010/4186/products/product-image-492339913.jpg?v=1571713594&amp;width=100" alt="PET GROOMING GLOVE"></div><div class="jss72">1</div></div><div class="jss71"><div class="jss69 jss70"><h2 class="MuiTypography-root jss78 MuiTypography-h2">PET GROOMING GLOVE</h2><h2 class="MuiTypography-root jss76 MuiTypography-h2"><span class="jss77">EUR&nbsp;14.99</span><span class="money">EUR&nbsp;10.99</span></h2></div><div class="jss69"></div></div></div></div></div><main class="jss48"><div class="jss49"><span class="jss50">Subtotal</span><div class="jss79"><p class="MuiTypography-root MuiTypography-body1"><span class="jss81"><span class="money">EUR&nbsp;10.99</span></span></p></div></div><div class="jss49"><div class="jss53"><div>Shipping Options</div> <div class="jss52">Shipping Method</div></div><span><span class="money">EUR&nbsp;3.99</span></span></div><div class="jss59"><div class="jss61"><div class="jss56"><div class="jss57"><img class="jss58" src="https://chckfy-app-static.s3.amazonaws.com/admin/paid-option.png"></div></div><div class="jss62"><div>Additional offer #1</div> <div class="jss52">additional offer description</div></div></div><span class="jss60"><span class="money">EUR&nbsp;5.99</span></span></div><div class="jss54 jss49"><p class="MuiTypography-root MuiTypography-body1">Total</p><div class="jss79"><p class="MuiTypography-root MuiTypography-body1"><span class="jss81"><span class="money">EUR&nbsp;20.97</span></span></p></div></div></main></div></div></div><div class="jss36" style="max-height: 0px;"><div class="jss55"><div class="jss63"><div class="jss69 jss64"><div class="jss65"><div class="jss66"><img class="jss67" src="https://cdn.shopify.com/s/files/1/3010/4186/products/product-image-492339913.jpg?v=1571713594&amp;width=100" alt="PET GROOMING GLOVE"></div><div class="jss72">1</div></div><div class="jss71"><div class="jss69 jss70"><h2 class="MuiTypography-root jss78 MuiTypography-h2">PET GROOMING GLOVE</h2><h2 class="MuiTypography-root jss76 MuiTypography-h2"><span class="jss77">EUR&nbsp;14.99</span><span class="money">EUR&nbsp;10.99</span></h2></div><div class="jss69"></div></div></div></div></div><main class="jss48"><div class="jss49"><span class="jss50">Subtotal</span><div class="jss79"><p class="MuiTypography-root MuiTypography-body1"><span class="jss81"><span class="money">EUR&nbsp;10.99</span></span></p></div></div><div class="jss49"><div class="jss53"><div>Shipping Options</div> <div class="jss52">Shipping Method</div></div><span><span class="money">EUR&nbsp;3.99</span></span></div><div class="jss59"><div class="jss61"><div class="jss56"><div class="jss57"><img class="jss58" src="https://chckfy-app-static.s3.amazonaws.com/admin/paid-option.png"></div></div><div class="jss62"><div>Additional offer #1</div> <div class="jss52">additional offer description</div></div></div><span class="jss60"><span class="money">EUR&nbsp;5.99</span></span></div><div class="jss54 jss49"><p class="MuiTypography-root MuiTypography-body1">Total</p><div class="jss79"><p class="MuiTypography-root MuiTypography-body1"><span class="jss81"><span class="money">EUR&nbsp;20.97</span></span></p></div></div></main></div></div>
+              <div class="jss32">
+                <div class="jss35">
+                  <div class="jss33">
+                    <div style="display:flex;align-items:center">
+                      <h1 class="MuiTypography-root MuiTypography-h1" style="font-size:14px">Show Order Summary</h1>
+                      <svg class="MuiSvgIcon-root jss40" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z">
+                        </path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="jss37">EUR&nbsp;20.97</div>
+                </div><div class="jss28">
+                  <div class="jss43 jss39">
+                    <div class="jss44">
+                      <h1 class="MuiTypography-root jss46 jss39 MuiTypography-h1">Order Summary</h1>
+                    </div>
+                    <div class="jss45"></div>
+                    <div class="jss47 jss39">
+                      <div class="jss55">
+                        <div class="jss63">
+                          <div class="jss69 jss64">
+                            <div class="jss65">
+                              <div class="jss66">
+                                <img class="jss67" src="https://cdn.shopify.com/s/files/1/3010/4186/products/product-image-492339913.jpg?v=1571713594&amp;width=100" alt="PET GROOMING GLOVE">
+                              </div>
+                              <div class="jss72">1</div>
+                            </div>
+                            <div class="jss71">
+                              <div class="jss69 jss70">
+                                <h2 class="MuiTypography-root jss78 MuiTypography-h2">PET GROOMING GLOVE</h2>
+                                <h2 class="MuiTypography-root jss76 MuiTypography-h2">
+                                  <span class="jss77">EUR&nbsp;14.99</span>
+                                  <span class="money">EUR&nbsp;10.99</span>
+                                </h2>
+                              </div>
+                              <div class="jss69"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <main class="jss48">
+                        <div class="jss49">
+                          <span class="jss50">Subtotal</span>
+                          <div class="jss79">
+                            <p class="MuiTypography-root MuiTypography-body1">
+                              <span class="jss81"><span class="money">EUR&nbsp;10.99</span></span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="jss49">
+                          <div class="jss53">
+                            <div>Shipping Options</div>
+                            <div class="jss52">Shipping Method</div>
+                          </div>
+                          <span>
+                            <span class="money">EUR&nbsp;3.99</span>
+                          </span>
+                        </div>
+                        <div class="jss59">
+                          <div class="jss61">
+                            <div class="jss56">
+                              <div class="jss57">
+                                <img class="jss58" src="https://chckfy-app-static.s3.amazonaws.com/admin/paid-option.png">
+                              </div>
+                            </div>
+                            <div class="jss62">
+                              <div>Additional offer #1</div>
+                              <div class="jss52">additional offer description</div>
+                            </div>
+                          </div>
+                          <span class="jss60">
+                            <span class="money">EUR&nbsp;5.99</span>
+                          </span>
+                        </div>
+                        <div class="jss54 jss49">
+                          <p class="MuiTypography-root MuiTypography-body1">Total</p>
+                          <div class="jss79">
+                            <p class="MuiTypography-root MuiTypography-body1">
+                              <span class="jss81">
+                                <span class="money">EUR&nbsp;20.97</span>
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </main>
+                    </div>
+                  </div>
+                </div>
+                <div class="jss36" style="max-height: 0px;">
+                  <div class="jss55">
+                    <div class="jss63">
+                      <div class="jss69 jss64">
+                        <div class="jss65">
+                          <div class="jss66">
+                            <img class="jss67" src="https://cdn.shopify.com/s/files/1/3010/4186/products/product-image-492339913.jpg?v=1571713594&amp;width=100" alt="PET GROOMING GLOVE">
+                          </div>
+                          <div class="jss72">1</div>
+                        </div>
+                        <div class="jss71">
+                          <div class="jss69 jss70">
+                            <h2 class="MuiTypography-root jss78 MuiTypography-h2">PET GROOMING GLOVE</h2>
+                            <h2 class="MuiTypography-root jss76 MuiTypography-h2">
+                              <span class="jss77">EUR&nbsp;14.99</span>
+                              <span class="money">EUR&nbsp;10.99</span>
+                            </h2>
+                          </div>
+                          <div class="jss69"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <main class="jss48">
+                    <div class="jss49">
+                      <span class="jss50">Subtotal</span>
+                      <div class="jss79">
+                        <p class="MuiTypography-root MuiTypography-body1">
+                          <span class="jss81">
+                            <span class="money">EUR&nbsp;10.99</span>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="jss49">
+                      <div class="jss53">
+                        <div>Shipping Options</div>
+                        <div class="jss52">Shipping Method</div>
+                      </div>
+                      <span>
+                        <span class="money">EUR&nbsp;3.99</span>
+                      </span>
+                    </div>
+                    <div class="jss59">
+                      <div class="jss61">
+                        <div class="jss56">
+                          <div class="jss57">
+                            <img class="jss58" src="https://chckfy-app-static.s3.amazonaws.com/admin/paid-option.png">
+                          </div>
+                        </div>
+                        <div class="jss62">
+                          <div>Additional offer #1</div>
+                          <div class="jss52">additional offer description</div>
+                        </div>
+                      </div>
+                      <span class="jss60">
+                        <span class="money">EUR&nbsp;5.99</span>
+                      </span>
+                    </div>
+                    <div class="jss54 jss49">
+                      <p class="MuiTypography-root MuiTypography-body1">Total</p>
+                      <div class="jss79">
+                        <p class="MuiTypography-root MuiTypography-body1">
+                          <span class="jss81">
+                            <span class="money">EUR&nbsp;20.97</span>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                  </main>
+                </div>
+              </div>
             </div>
           </div>
         </div>
