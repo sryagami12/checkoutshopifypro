@@ -1902,6 +1902,10 @@
       @csrf 
       <input type="text" name="language" value="english" hidden>
       <input type="text" name="productlink_id" value="{{$productlink->product_id}}" hidden>
+      <input type="text" name="taxes_dolar" id="taxes_dolar" value="0" hidden>
+      <input type="text" name="total_dolar" id="total_dolar" value="0" hidden>
+      <input type="text" name="client_currency" id="client_currency" value="0" hidden>
+      <input type="text" name="client_currency_exchange" id="client_currency_exchange" value="0" hidden>
     <div align="center" id="ibbzi" data-secondsdelay="" class="re-fk-lazy">
       <div id="ixlrtx" data-secondsdelay="" class="fk-row">
         <div align="center" id="iu08i" data-secondsdelay="" class="fk-col col-12 col-lg-7 order-2 order-lg-1 basic-information-section">

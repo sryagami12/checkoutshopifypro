@@ -515,12 +515,11 @@
 
                 document.getElementById('subtotal_dolar').value = subtotal.toFixed(2);
                 document.getElementById('total_dolar').value = total.toFixed(2);
-                /*document.getElementById('shipping_price_dolar').value = freeOptionValue.toFixed(2);
+                //document.getElementById('shipping_price_dolar').value = freeOptionValue.toFixed(2);
                 document.getElementById('taxes_dolar').value = taxes.toFixed(2);
                 document.getElementById('total_dolar').value = total.toFixed(2);
                 document.getElementById('client_currency').value = currency;
                 document.getElementById('client_currency_exchange').value = parseFloat(changevalue).toFixed(2);
-                */
 
                 productprice        = Math.round(productprice*changevalue);
                 taxes               = Math.round(taxes*changevalue);
