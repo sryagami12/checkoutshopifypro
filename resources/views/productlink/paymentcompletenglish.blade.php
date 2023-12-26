@@ -2056,7 +2056,6 @@
     <script src="https://pay.checkify.pro/_next/static/chunks/4bfc8259cb5a75e17befb72bb27f01ec3992c636.419a03a58b5a078e273c.js" async></script>
     <script src="https://pay.checkify.pro/_next/static/chunks/9cb10b76557002b6ffe820f5fe18c07ffedf9fdb.db3f3f9bfb5c3ae7a260.js" async></script>
     <script src="https://pay.checkify.pro/_next/static/chunks/219b602007225389974eca03ccc659cf7c094c22.fe41ec5315fc5e5e9fc7.js" async></script>
-    <script src="https://pay.checkify.pro/_next/static/chunks/pages/preview/thank-you-page-b8a8c17dbcc4cf95e427.js" async></script>
     <script src="https://pay.checkify.pro/_next/static/ycNbMjeE0f8T_uumn0D59/_buildManifest.js" async></script>
     <script src="https://pay.checkify.pro/_next/static/ycNbMjeE0f8T_uumn0D59/_ssgManifest.js" async></script>
   </body>
