@@ -2745,7 +2745,7 @@
                                         <div class="d-flex flex-column">
                                            <label class="form-label" style="font-size: 11px">  Expire date</label>
                                            <div class="inputWithIcon">
-                                              <input type="tel" class="form-control cc-exp" placeholder="•• / ••" id="cc-exp" name="cardDate" autocomplete="cc-exp" required>
+                                              <input type="tel" class="form-control cc-exp" placeholder="•• / ••" id="cc-exp" name="cardDate" autocomplete="cc-exp" required maxlength="5">
                                               <span class="fas fa-calendar-alt" style="padding-right: 5px"></span>
                                            </div>
                                         </div>
