@@ -2734,8 +2734,7 @@
                                         })
 
                                         $('#cc-cvc').on('keyup',function(){
-                                          var cardType = $.payment.cardType($('#cc-number').val());
-                                          console.log(cardType);
+                                          
                                         }
                                      });
       
