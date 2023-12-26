@@ -1997,7 +1997,7 @@
               "shippingPolicyUrl": "https://siddartha.shop/pages/politica-de-privacidad",
               "privacyPolicyUrl": "https://siddartha.shop/pages/politica-de-privacidad",
               "termsAndConditionsUrl": "https://siddartha.shop/pages/terminos-de-servicio",
-              "leftImageUrl": "https://cdn.shopify.com/s/files/1/0522/7433/1830/files/Gold_and_White_Real_Estate_Agency_Logo_Template.png?v=1675458793",
+              "leftImageUrl": "",
               "rightImageUrl": "https://cdn.shopify.com/s/files/1/0522/7433/1830/files/class-payments.png?v=1675448311",
               "faviconsSm": "{{asset('images/logo.png')}}",
               "aboutUs": [{
