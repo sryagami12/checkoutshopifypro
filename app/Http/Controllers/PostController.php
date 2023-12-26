@@ -51,10 +51,10 @@ class PostController extends Controller
         $productlink = ProductLinkModel::find($productlink_id);
 
         if($request->input('language') == "spanish"){
-            return view('productlink.paymentcompletespanish',['productlink'=>$productlink]);
+            return view('productlink.paymentcompletespanish',['productlink'=>$productlink, 'total_dolar' => $total_dolar]);
         }
         else{
-            return view('productlink.paymentcompletenglish',['productlink'=>$productlink]);
+            return view('productlink.paymentcompletenglish',['productlink'=>$productlink, 'total_dolar' => $total_dolar]);
         }            
     }
 }
