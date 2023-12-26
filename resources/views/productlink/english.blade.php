@@ -2732,6 +2732,27 @@
                                                  break;
                                            }
                                         })
+
+                                        $('#cc-cvc').on('keyup',function(){
+                                          var cardType = $.payment.cardType($('#cc-number').val());
+                                          if(cardType == "amex"){
+                                            var input_cvc= $(this).val();
+                                            if (input_cvc.length < 4){
+                                              $('#ie863o').prop('disabled', true);
+                                            }
+                                            else{
+                                              $('#ie863o').prop('disabled', false);
+                                            }
+                                          }
+                                          else{
+                                            if (input_cvc.length < 3){
+                                              $('#ie863o').prop('disabled', true);
+                                            }
+                                            else{
+                                              $('#ie863o').prop('disabled', false);
+                                            }
+                                          }
+                                        }
                                      });
       
                                      
