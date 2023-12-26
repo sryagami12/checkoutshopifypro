@@ -1894,7 +1894,8 @@
    <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=1198371520827281&ev=PageView&noscript=1"
    /></noscript>
-   <!-- End Meta Pixel Code -->
+      <!-- End Meta Pixel Code -->
+      <link rel="icon" type="image/x-icon" href="/images/logo.png">
   </head>
   <body class=" dom-pending">
    <form action="/store" method="POST" accept-charset="UTF-8">
